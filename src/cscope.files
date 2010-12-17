@@ -1,0 +1,17 @@
+./mentohust.c
+./myini.h
+./myconfig.h
+./dlfunc.c
+./mystate.c
+./md5.c
+./mycheck.c
+./types.h
+./dlfunc.h
+./mycheck.h
+./myini.c
+./myconfig.c
+./myfunc.c
+./md5.h
+./myfunc.h
+./mystate.h
+./i18n.h

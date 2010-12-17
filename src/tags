@@ -1,0 +1,801 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCOUNT_SIZE	myconfig.c	30;"	d	language:C	file:
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/bigeagle\/workspace\/mentohust\/missing --run aclocal-1.11$/;"	m	language:Make
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m	language:Make
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/home\/bigeagle\/workspace\/mentohust\/missing --run tar$/;"	m	language:Make
+AM_DEFAULT_VERBOSITY	Makefile	/^AM_DEFAULT_VERBOSITY = 0$/;"	m	language:Make
+AM_V_CC	Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m	language:Make
+AM_V_CCLD	Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m	language:Make
+AM_V_GEN	Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m	language:Make
+AM_V_at	Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m	language:Make
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/bigeagle\/workspace\/mentohust\/missing --run autoconf$/;"	m	language:Make
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/bigeagle\/workspace\/mentohust\/missing --run autoheader$/;"	m	language:Make
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/bigeagle\/workspace\/mentohust\/missing --run automake-1.11$/;"	m	language:Make
+AWK	Makefile	/^AWK = gawk$/;"	m	language:Make
+AddressOfEntryPoint	mycheck.h	/^	DWORD	AddressOfEntryPoint;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+BYTE	types.h	/^typedef unsigned char BYTE;$/;"	t	language:C++
+BaseOfCode	mycheck.h	/^	DWORD	BaseOfCode;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+BaseOfData	mycheck.h	/^	DWORD	BaseOfData;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+CC	Makefile	/^CC = gcc$/;"	m	language:Make
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m	language:Make
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m	language:Make
+CFG_FILE	myconfig.c	/^static const char *CFG_FILE = "\/etc\/mentohust.conf";	\/* 配置文件 *\/$/;"	v	language:C	file:
+CFLAGS	Makefile	/^CFLAGS =  -Os -Wall$/;"	m	language:Make
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m	language:Make
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m	language:Make
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m	language:Make
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m	language:Make
+CPP	Makefile	/^CPP = gcc -E$/;"	m	language:Make
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m	language:Make
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m	language:Make
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m	language:Make
+Characteristics	mycheck.h	/^	DWORD	Characteristics;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY	access:public
+Characteristics	mycheck.h	/^	DWORD	Characteristics;$/;"	m	language:C++	struct:_IMAGE_SECTION_HEADER	access:public
+Characteristics	mycheck.h	/^	WORD	Characteristics;$/;"	m	language:C++	struct:_IMAGE_FILE_HEADER	access:public
+Check	myfunc.c	/^static int Check(const u_char *md5Seed)	\/* 客户端校验 *\/$/;"	f	language:C	file:	signature:(const u_char *md5Seed)
+Check	myfunc.c	/^static int Check(const u_char *md5Seed);	\/* 校验算法 *\/$/;"	p	language:C	file:	signature:(const u_char *md5Seed)
+CheckSum	mycheck.h	/^	DWORD	CheckSum;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+CodePage	mycheck.h	/^	DWORD	CodePage;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DATA_ENTRY	access:public
+ComputeHash	md5.c	/^UCHAR* ComputeHash(UCHAR* src, UINT4 len)$/;"	f	language:C	signature:(UCHAR* src, UINT4 len)
+ComputeHash	md5.h	/^UCHAR* ComputeHash(UCHAR *src, UINT4 len);$/;"	p	language:C++	signature:(UCHAR *src, UINT4 len)
+DATA	Makefile	/^DATA = $(dist_sysconf_DATA)$/;"	m	language:Make
+DATAFILE	myfunc.c	/^static const char *DATAFILE = "\/etc\/mentohust\/";	\/* 默认数据文件(目录) *\/$/;"	v	language:C	file:
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m	language:Make
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m	language:Make
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m	language:Make
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m	language:Make
+DIST_COMMON	Makefile	/^DIST_COMMON = $(dist_sysconf_DATA) $(srcdir)\/Makefile.am \\$/;"	m	language:Make
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(mentohust_SOURCES)$/;"	m	language:Make
+DWORD	types.h	/^typedef unsigned int DWORD;$/;"	t	language:C++
+D_DAEMONMODE	myconfig.c	38;"	d	language:C	file:
+D_DHCPMODE	myconfig.c	37;"	d	language:C	file:
+D_DHCPSCRIPT	myconfig.c	/^static const char *D_DHCPSCRIPT = "dhclient";	\/* 默认DHCP脚本 *\/$/;"	v	language:C	file:
+D_DHCPSCRIPT	myconfig.c	/^static const char *D_DHCPSCRIPT = "dhcping -v -t 15";	\/* 默认DHCP脚本 *\/$/;"	v	language:C	file:
+D_ECHOINTERVAL	myconfig.c	34;"	d	language:C	file:
+D_MAXFAIL	myconfig.c	39;"	d	language:C	file:
+D_RESTARTWAIT	myconfig.c	35;"	d	language:C	file:
+D_SHOWNOTIFY	myconfig.c	52;"	d	language:C	file:
+D_STARTMODE	myconfig.c	36;"	d	language:C	file:
+D_TIMEOUT	myconfig.c	33;"	d	language:C	file:
+DataDirectory	mycheck.h	/^	IMAGE_DATA_DIRECTORY DataDirectory[IMAGE_NUMBEROF_DIRECTORY_ENTRIES];$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+DataIsDirectory	mycheck.h	/^			DWORD	DataIsDirectory:1;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon5::__anon6	access:public
+Decode	md5.c	/^static void Decode (UINT4 *output, UCHAR *input, UINT4 len)$/;"	f	language:C	file:	signature:(UINT4 *output, UCHAR *input, UINT4 len)
+Decode	md5.c	/^static void Decode(UINT4 *, UCHAR *, UINT4);$/;"	p	language:C	file:	signature:(UINT4 *, UCHAR *, UINT4)
+DirectoryEntries	mycheck.h	/^  IMAGE_RESOURCE_DIRECTORY_ENTRY DirectoryEntries[];$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY	access:public
+DllCharacteristics	mycheck.h	/^	WORD	DllCharacteristics;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+ECHO_C	Makefile	/^ECHO_C = $/;"	m	language:Make
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m	language:Make
+ECHO_T	Makefile	/^ECHO_T = $/;"	m	language:Make
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m	language:Make
+ETAGS	Makefile	/^ETAGS = etags$/;"	m	language:Make
+EXEEXT	Makefile	/^EXEEXT = $/;"	m	language:Make
+Encode	md5.c	/^static void Encode (UCHAR *output, UINT4 *input, UINT4 len)$/;"	f	language:C	file:	signature:(UCHAR *output, UINT4 *input, UINT4 len)
+Encode	md5.c	/^static void Encode(UCHAR *, UINT4 *, UINT4);$/;"	p	language:C	file:	signature:(UCHAR *, UINT4 *, UINT4)
+F	md5.c	57;"	d	language:C	file:
+FF	md5.c	69;"	d	language:C	file:
+FileAlignment	mycheck.h	/^	DWORD	FileAlignment;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+G	md5.c	58;"	d	language:C	file:
+GETTEXT_MACRO_VERSION	Makefile	/^GETTEXT_MACRO_VERSION = 0.18$/;"	m	language:Make
+GETTEXT_PACKAGE	Makefile	/^GETTEXT_PACKAGE = mentohust$/;"	m	language:Make
+GETTEXT_PACKAGE	i18n.h	13;"	d	language:C++
+GError	dlfunc.c	/^typedef void NotifyNotification, GtkWidget, GError;$/;"	t	language:C	file:
+GG	md5.c	74;"	d	language:C	file:
+GMSGFMT	Makefile	/^GMSGFMT = \/usr\/bin\/msgfmt$/;"	m	language:Make
+GMSGFMT_015	Makefile	/^GMSGFMT_015 = \/usr\/bin\/msgfmt$/;"	m	language:Make
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m	language:Make
+GtkWidget	dlfunc.c	/^typedef void NotifyNotification, GtkWidget, GError;$/;"	t	language:C	file:
+H	md5.c	59;"	d	language:C	file:
+HAVE_ICONV_H	myfunc.c	12;"	d	language:C	file:
+HH	md5.c	79;"	d	language:C	file:
+HUSTMOON_DLFUNC_H	dlfunc.h	7;"	d	language:C++
+HUSTMOON_MYCONFIG_H	myconfig.h	9;"	d	language:C++
+HUSTMOON_MYFUNC_H	myfunc.h	9;"	d	language:C++
+HUSTMOON_MYINI_H	myini.h	11;"	d	language:C++
+HUSTMOON_MYSTATE_H	mystate.h	9;"	d	language:C++
+I	md5.c	60;"	d	language:C	file:
+I18N_H_	i18n.h	9;"	d	language:C++
+ID_CHALLENGE	mystate.h	14;"	d	language:C++
+ID_DHCP	mystate.h	16;"	d	language:C++
+ID_DISCONNECT	mystate.h	11;"	d	language:C++
+ID_ECHO	mystate.h	15;"	d	language:C++
+ID_IDENTITY	mystate.h	13;"	d	language:C++
+ID_START	mystate.h	12;"	d	language:C++
+ID_WAITECHO	mystate.h	17;"	d	language:C++
+II	md5.c	84;"	d	language:C	file:
+IMAGE_DATA_DIRECTORY	mycheck.h	/^} IMAGE_DATA_DIRECTORY, *PIMAGE_DATA_DIRECTORY;$/;"	t	language:C++	typeref:struct:_IMAGE_DATA_DIRECTORY
+IMAGE_DOS_HEADER	mycheck.h	/^} IMAGE_DOS_HEADER, *PIMAGE_DOS_HEADER;$/;"	t	language:C++	typeref:struct:_IMAGE_DOS_HEADER
+IMAGE_FILE_HEADER	mycheck.h	/^} IMAGE_FILE_HEADER, *PIMAGE_FILE_HEADER;$/;"	t	language:C++	typeref:struct:_IMAGE_FILE_HEADER
+IMAGE_NUMBEROF_DIRECTORY_ENTRIES	mycheck.h	51;"	d	language:C++
+IMAGE_OPTIONAL_HEADER	mycheck.h	/^} IMAGE_OPTIONAL_HEADER, *PIMAGE_OPTIONAL_HEADER;$/;"	t	language:C++	typeref:struct:_IMAGE_OPTIONAL_HEADER
+IMAGE_RESOURCE_DATA_ENTRY	mycheck.h	/^} IMAGE_RESOURCE_DATA_ENTRY, *PIMAGE_RESOURCE_DATA_ENTRY;$/;"	t	language:C++	typeref:struct:_IMAGE_RESOURCE_DATA_ENTRY
+IMAGE_RESOURCE_DIRECTORY	mycheck.h	/^} IMAGE_RESOURCE_DIRECTORY, *PIMAGE_RESOURCE_DIRECTORY;$/;"	t	language:C++	typeref:struct:_IMAGE_RESOURCE_DIRECTORY
+IMAGE_RESOURCE_DIRECTORY_ENTRY	mycheck.h	/^} IMAGE_RESOURCE_DIRECTORY_ENTRY, *PIMAGE_RESOURCE_DIRECTORY_ENTRY;$/;"	t	language:C++	typeref:struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY
+IMAGE_SCN_CNT_CODE	mycheck.h	201;"	d	language:C++
+IMAGE_SCN_MEM_EXECUTE	mycheck.h	202;"	d	language:C++
+IMAGE_SECTION_HEADER	mycheck.h	/^} IMAGE_SECTION_HEADER, *PIMAGE_SECTION_HEADER;$/;"	t	language:C++	typeref:struct:_IMAGE_SECTION_HEADER
+IMAGE_SIZEOF_SHORT_NAME	mycheck.h	95;"	d	language:C++
+INSTALL	Makefile	/^INSTALL = \/bin\/install -c$/;"	m	language:Make
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m	language:Make
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m	language:Make
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m	language:Make
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m	language:Make
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m	language:Make
+INTLLIBS	Makefile	/^INTLLIBS = $/;"	m	language:Make
+INTL_MACOSX_LIBS	Makefile	/^INTL_MACOSX_LIBS = $/;"	m	language:Make
+Id	mycheck.h	/^			WORD	Id;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon2::__anon4	access:public
+Id_unuse	mycheck.h	/^			WORD	Id_unuse;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon2::__anon4	access:public
+ImageBase	mycheck.h	/^	DWORD	ImageBase;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+LDADD	Makefile	/^LDADD = $/;"	m	language:Make
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m	language:Make
+LIBICONV	Makefile	/^LIBICONV = -liconv$/;"	m	language:Make
+LIBINTL	Makefile	/^LIBINTL = $/;"	m	language:Make
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m	language:Make
+LIBS	Makefile	/^LIBS = -ldl -ldl $/;"	m	language:Make
+LINK	Makefile	/^LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@$/;"	m	language:Make
+LOCKMODE	myconfig.c	49;"	d	language:C	file:
+LOCK_FILE	myconfig.c	/^static const char *LOCK_FILE = "\/var\/run\/mentohust.pid";	\/* 锁文件 *\/$/;"	v	language:C	file:
+LOG_FILE	myconfig.c	/^static const char *LOG_FILE = "\/tmp\/mentohust.log";	\/* 日志文件 *\/$/;"	v	language:C	file:
+LONG	types.h	/^typedef int LONG;$/;"	t	language:C++
+LTLIBICONV	Makefile	/^LTLIBICONV = -liconv$/;"	m	language:Make
+LTLIBINTL	Makefile	/^LTLIBINTL = $/;"	m	language:Make
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m	language:Make
+LTOBL	mycheck.h	206;"	d	language:C++
+LTOBL	mycheck.h	211;"	d	language:C++
+LTOBS	mycheck.h	205;"	d	language:C++
+LTOBS	mycheck.h	210;"	d	language:C++
+LoaderFlags	mycheck.h	/^	DWORD	LoaderFlags;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/bigeagle\/workspace\/mentohust\/missing --run makeinfo$/;"	m	language:Make
+MAX_PATH	myconfig.c	32;"	d	language:C	file:
+MAX_SEND_COUNT	mystate.c	20;"	d	language:C	file:
+MD5Final	md5.c	/^void MD5Final (UCHAR digest[16], MD5_CTX *context)$/;"	f	language:C	signature:(UCHAR digest[16], MD5_CTX *context)
+MD5Final	md5.h	/^void MD5Final(UCHAR digest[16], MD5_CTX *context);$/;"	p	language:C++	signature:(UCHAR digest[16], MD5_CTX *context)
+MD5Init	md5.c	/^void MD5Init (MD5_CTX * context)$/;"	f	language:C	signature:(MD5_CTX * context)
+MD5Init	md5.h	/^void MD5Init(MD5_CTX * context);$/;"	p	language:C++	signature:(MD5_CTX * context)
+MD5Transform	md5.c	/^static void MD5Transform (UINT4 state[4],UCHAR block[64])$/;"	f	language:C	file:	signature:(UINT4 state[4],UCHAR block[64])
+MD5Transform	md5.c	/^static void MD5Transform(UINT4 [4], UCHAR [64]);$/;"	p	language:C	file:	signature:(UINT4 [4], UCHAR [64])
+MD5Update	md5.c	/^void MD5Update (MD5_CTX *context, UCHAR *input, UINT4 inputLen)$/;"	f	language:C	signature:(MD5_CTX *context, UCHAR *input, UINT4 inputLen)
+MD5Update	md5.h	/^void MD5Update(MD5_CTX *context, UCHAR *input, UINT4 inputLen);$/;"	p	language:C++	signature:(MD5_CTX *context, UCHAR *input, UINT4 inputLen)
+MD5_CTX	md5.h	/^} MD5_CTX;$/;"	t	language:C++	typeref:struct:__anon7
+MD5_H	md5.h	26;"	d	language:C++
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m	language:Make
+MSGFMT	Makefile	/^MSGFMT = \/usr\/bin\/msgfmt$/;"	m	language:Make
+MSGFMT_015	Makefile	/^MSGFMT_015 = \/usr\/bin\/msgfmt$/;"	m	language:Make
+MSGMERGE	Makefile	/^MSGMERGE = \/usr\/bin\/msgmerge$/;"	m	language:Make
+MYCHECK_H	mycheck.h	10;"	d	language:C++
+Machine	mycheck.h	/^	WORD	Machine;$/;"	m	language:C++	struct:_IMAGE_FILE_HEADER	access:public
+Magic	mycheck.h	/^	WORD	Magic;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+MajorImageVersion	mycheck.h	/^	WORD	MajorImageVersion;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+MajorLinkerVersion	mycheck.h	/^	BYTE	MajorLinkerVersion;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+MajorOperatingSystemVersion	mycheck.h	/^	WORD	MajorOperatingSystemVersion;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+MajorSubsystemVersion	mycheck.h	/^	WORD	MajorSubsystemVersion;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+MajorVersion	mycheck.h	/^	WORD	MajorVersion;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY	access:public
+MinorImageVersion	mycheck.h	/^	WORD	MinorImageVersion;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+MinorLinkerVersion	mycheck.h	/^	BYTE	MinorLinkerVersion;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+MinorOperatingSystemVersion	mycheck.h	/^	WORD	MinorOperatingSystemVersion;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+MinorSubsystemVersion	mycheck.h	/^	WORD	MinorSubsystemVersion;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+MinorVersion	mycheck.h	/^	WORD	MinorVersion;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY	access:public
+Misc	mycheck.h	/^	} Misc;$/;"	m	language:C++	struct:_IMAGE_SECTION_HEADER	typeref:union:_IMAGE_SECTION_HEADER::__anon1	access:public
+NIC_SIZE	myconfig.c	31;"	d	language:C	file:
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m	language:Make
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m	language:Make
+NOT_COMMENT	myini.c	14;"	d	language:C	file:
+N_	i18n.h	21;"	d	language:C++
+N_	i18n.h	23;"	d	language:C++
+N_	i18n.h	27;"	d	language:C++
+Name	mycheck.h	/^		DWORD	Name;$/;"	m	language:C++	union:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon2	access:public
+Name	mycheck.h	/^	char	Name[IMAGE_SIZEOF_SHORT_NAME];$/;"	m	language:C++	struct:_IMAGE_SECTION_HEADER	access:public
+NameIsString	mycheck.h	/^			DWORD NameIsString:1;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon2::__anon3	access:public
+NameOffset	mycheck.h	/^			DWORD NameOffset:31;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon2::__anon3	access:public
+NotifyNotification	dlfunc.c	/^typedef void NotifyNotification, GtkWidget, GError;$/;"	t	language:C	file:
+NumberOfIdEntries	mycheck.h	/^	WORD	NumberOfIdEntries;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY	access:public
+NumberOfLinenumbers	mycheck.h	/^	WORD	NumberOfLinenumbers;$/;"	m	language:C++	struct:_IMAGE_SECTION_HEADER	access:public
+NumberOfNamedEntries	mycheck.h	/^	WORD	NumberOfNamedEntries;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY	access:public
+NumberOfRelocations	mycheck.h	/^	WORD	NumberOfRelocations;$/;"	m	language:C++	struct:_IMAGE_SECTION_HEADER	access:public
+NumberOfRvaAndSizes	mycheck.h	/^	DWORD	NumberOfRvaAndSizes;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+NumberOfSections	mycheck.h	/^	WORD	NumberOfSections;$/;"	m	language:C++	struct:_IMAGE_FILE_HEADER	access:public
+NumberOfSymbols	mycheck.h	/^	DWORD	NumberOfSymbols;$/;"	m	language:C++	struct:_IMAGE_FILE_HEADER	access:public
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m	language:Make
+OffsetToData	mycheck.h	/^		DWORD	OffsetToData;$/;"	m	language:C++	union:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon5	access:public
+OffsetToData	mycheck.h	/^	DWORD	OffsetToData;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DATA_ENTRY	access:public
+OffsetToDirectory	mycheck.h	/^			DWORD	OffsetToDirectory:31;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon5::__anon6	access:public
+PACKAGE	Makefile	/^PACKAGE = mentohust$/;"	m	language:Make
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = http:\/\/code.google.com\/p\/mentohust\/issues\/list$/;"	m	language:Make
+PACKAGE_BUGREPORT	myconfig.c	/^static const char *PACKAGE_BUGREPORT = "http:\/\/code.google.com\/p\/mentohust\/issues\/list";$/;"	v	language:C	file:
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = mentohust$/;"	m	language:Make
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = mentohust 0.3.1$/;"	m	language:Make
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = mentohust$/;"	m	language:Make
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m	language:Make
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 0.3.1$/;"	m	language:Make
+PADDING	md5.c	/^static UCHAR PADDING[64] = {$/;"	v	language:C	file:
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m	language:Make
+PCAP_ERRBUF_SIZE	dlfunc.h	15;"	d	language:C++
+PCAP_IF_LOOPBACK	dlfunc.h	16;"	d	language:C++
+PE_HEADER_MAP	mycheck.h	/^}PE_HEADER_MAP,*PPE_HEADER_MAP;$/;"	t	language:C++	typeref:struct:_PE_HEADER_MAP
+PIMAGE_DATA_DIRECTORY	mycheck.h	/^} IMAGE_DATA_DIRECTORY, *PIMAGE_DATA_DIRECTORY;$/;"	t	language:C++	typeref:struct:_IMAGE_DATA_DIRECTORY
+PIMAGE_DOS_HEADER	mycheck.h	/^} IMAGE_DOS_HEADER, *PIMAGE_DOS_HEADER;$/;"	t	language:C++	typeref:struct:_IMAGE_DOS_HEADER
+PIMAGE_FILE_HEADER	mycheck.h	/^} IMAGE_FILE_HEADER, *PIMAGE_FILE_HEADER;$/;"	t	language:C++	typeref:struct:_IMAGE_FILE_HEADER
+PIMAGE_OPTIONAL_HEADER	mycheck.h	/^} IMAGE_OPTIONAL_HEADER, *PIMAGE_OPTIONAL_HEADER;$/;"	t	language:C++	typeref:struct:_IMAGE_OPTIONAL_HEADER
+PIMAGE_RESOURCE_DATA_ENTRY	mycheck.h	/^} IMAGE_RESOURCE_DATA_ENTRY, *PIMAGE_RESOURCE_DATA_ENTRY;$/;"	t	language:C++	typeref:struct:_IMAGE_RESOURCE_DATA_ENTRY
+PIMAGE_RESOURCE_DIRECTORY	mycheck.h	/^} IMAGE_RESOURCE_DIRECTORY, *PIMAGE_RESOURCE_DIRECTORY;$/;"	t	language:C++	typeref:struct:_IMAGE_RESOURCE_DIRECTORY
+PIMAGE_RESOURCE_DIRECTORY_ENTRY	mycheck.h	/^} IMAGE_RESOURCE_DIRECTORY_ENTRY, *PIMAGE_RESOURCE_DIRECTORY_ENTRY;$/;"	t	language:C++	typeref:struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY
+PIMAGE_SECTION_HEADER	mycheck.h	/^} IMAGE_SECTION_HEADER, *PIMAGE_SECTION_HEADER;$/;"	t	language:C++	typeref:struct:_IMAGE_SECTION_HEADER
+POINTER	types.h	/^typedef unsigned char *POINTER;$/;"	t	language:C++
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m	language:Make
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m	language:Make
+POSUB	Makefile	/^POSUB = po$/;"	m	language:Make
+PPE_HEADER_MAP	mycheck.h	/^}PE_HEADER_MAP,*PPE_HEADER_MAP;$/;"	t	language:C++	typeref:struct:_PE_HEADER_MAP
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m	language:Make
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m	language:Make
+PROGRAMS	Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m	language:Make
+PVS_VERSIONINFO	mycheck.h	/^} VS_VERSIONINFO, *PVS_VERSIONINFO;$/;"	t	language:C++	typeref:struct:_VS_VERSIONINFO
+Padding1	mycheck.h	/^	WORD	Padding1[1];$/;"	m	language:C++	struct:_VS_VERSIONINFO	access:public
+PhysicalAddress	mycheck.h	/^		DWORD	PhysicalAddress;$/;"	m	language:C++	union:_IMAGE_SECTION_HEADER::__anon1	access:public
+PointerToLinenumbers	mycheck.h	/^	DWORD	PointerToLinenumbers;$/;"	m	language:C++	struct:_IMAGE_SECTION_HEADER	access:public
+PointerToRawData	mycheck.h	/^	DWORD	PointerToRawData;$/;"	m	language:C++	struct:_IMAGE_SECTION_HEADER	access:public
+PointerToRelocations	mycheck.h	/^	DWORD	PointerToRelocations;$/;"	m	language:C++	struct:_IMAGE_SECTION_HEADER	access:public
+PointerToSymbolTable	mycheck.h	/^	DWORD	PointerToSymbolTable;$/;"	m	language:C++	struct:_IMAGE_FILE_HEADER	access:public
+ROTATE_LEFT	md5.c	64;"	d	language:C	file:
+RUIJIE_ADDR	myfunc.c	/^const u_char RUIJIE_ADDR[] = {0x01,0xD0,0xF8,0x00,0x00,0x03};$/;"	v	language:C
+ReadCode	mycheck.c	/^static BYTE *ReadCode(const char *file, DWORD *size) {$/;"	f	language:C	file:	signature:(const char *file, DWORD *size)
+ReadCode2	mycheck.c	/^static BYTE *ReadCode2(const char *dataFile, DWORD *size) {$/;"	f	language:C	file:	signature:(const char *dataFile, DWORD *size)
+Reserved	mycheck.h	/^	DWORD	Reserved;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DATA_ENTRY	access:public
+S11	md5.c	28;"	d	language:C	file:
+S12	md5.c	29;"	d	language:C	file:
+S13	md5.c	30;"	d	language:C	file:
+S14	md5.c	31;"	d	language:C	file:
+S21	md5.c	32;"	d	language:C	file:
+S22	md5.c	33;"	d	language:C	file:
+S23	md5.c	34;"	d	language:C	file:
+S24	md5.c	35;"	d	language:C	file:
+S31	md5.c	36;"	d	language:C	file:
+S32	md5.c	37;"	d	language:C	file:
+S33	md5.c	38;"	d	language:C	file:
+S34	md5.c	39;"	d	language:C	file:
+S41	md5.c	40;"	d	language:C	file:
+S42	md5.c	41;"	d	language:C	file:
+S43	md5.c	42;"	d	language:C	file:
+S44	md5.c	43;"	d	language:C	file:
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m	language:Make
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m	language:Make
+SOURCES	Makefile	/^SOURCES = $(mentohust_SOURCES)$/;"	m	language:Make
+STANDARD_ADDR	myfunc.c	/^const u_char STANDARD_ADDR[] = {0x01,0x80,0xC2,0x00,0x00,0x03};$/;"	v	language:C
+STRIP	Makefile	/^STRIP = $/;"	m	language:Make
+SectionAlignment	mycheck.h	/^	DWORD	SectionAlignment;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+Size	mycheck.h	/^	DWORD	Size;$/;"	m	language:C++	struct:_IMAGE_DATA_DIRECTORY	access:public
+Size	mycheck.h	/^	DWORD	Size;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DATA_ENTRY	access:public
+SizeOfCode	mycheck.h	/^	DWORD	SizeOfCode;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+SizeOfHeaders	mycheck.h	/^	DWORD	SizeOfHeaders;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+SizeOfHeapCommit	mycheck.h	/^	DWORD	SizeOfHeapCommit;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+SizeOfHeapReserve	mycheck.h	/^	DWORD	SizeOfHeapReserve;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+SizeOfImage	mycheck.h	/^	DWORD	SizeOfImage;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+SizeOfInitializedData	mycheck.h	/^	DWORD	SizeOfInitializedData;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+SizeOfOptionalHeader	mycheck.h	/^	WORD	SizeOfOptionalHeader;$/;"	m	language:C++	struct:_IMAGE_FILE_HEADER	access:public
+SizeOfRawData	mycheck.h	/^	DWORD	SizeOfRawData;$/;"	m	language:C++	struct:_IMAGE_SECTION_HEADER	access:public
+SizeOfStackCommit	mycheck.h	/^	DWORD	SizeOfStackCommit;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+SizeOfStackReserve	mycheck.h	/^	DWORD	SizeOfStackReserve;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+SizeOfUninitializedData	mycheck.h	/^	DWORD	SizeOfUninitializedData;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+Subsystem	mycheck.h	/^	WORD	Subsystem;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+TYPES_H	types.h	2;"	d	language:C++
+TimeDateStamp	mycheck.h	/^	DWORD	TimeDateStamp;$/;"	m	language:C++	struct:_IMAGE_FILE_HEADER	access:public
+TimeDateStamp	mycheck.h	/^	DWORD	TimeDateStamp;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY	access:public
+UCHAR	types.h	/^typedef unsigned char UCHAR;$/;"	t	language:C++
+UINT4	types.h	/^typedef unsigned int UINT4;$/;"	t	language:C++
+USE_NLS	Makefile	/^USE_NLS = yes$/;"	m	language:Make
+V2_check	mycheck.c	/^void V2_check(const BYTE *seed, char *final_str) {$/;"	f	language:C	signature:(const BYTE *seed, char *final_str)
+V2_check	mycheck.h	/^void V2_check(const BYTE *seed, char *final_str);$/;"	p	language:C++	signature:(const BYTE *seed, char *final_str)
+VERSION	Makefile	/^VERSION = 0.3.1 西电修改版$/;"	m	language:Make
+VERSION	myconfig.c	/^static const char *VERSION = "0.3.1 西电修改版";$/;"	v	language:C	file:
+VS_FIXEDFILEINFO	mycheck.h	/^} VS_FIXEDFILEINFO;$/;"	t	language:C++	typeref:struct:tagVS_FIXEDFILEINFO
+VS_VERSIONINFO	mycheck.h	/^} VS_VERSIONINFO, *PVS_VERSIONINFO;$/;"	t	language:C++	typeref:struct:_VS_VERSIONINFO
+Value	mycheck.h	/^	VS_FIXEDFILEINFO Value;$/;"	m	language:C++	struct:_VS_VERSIONINFO	access:public
+VirtualAddress	mycheck.h	/^	DWORD	VirtualAddress;$/;"	m	language:C++	struct:_IMAGE_DATA_DIRECTORY	access:public
+VirtualAddress	mycheck.h	/^	DWORD	VirtualAddress;$/;"	m	language:C++	struct:_IMAGE_SECTION_HEADER	access:public
+VirtualSize	mycheck.h	/^		DWORD	VirtualSize;$/;"	m	language:C++	union:_IMAGE_SECTION_HEADER::__anon1	access:public
+WORD	types.h	/^typedef unsigned short int WORD;$/;"	t	language:C++
+Win32VersionValue	mycheck.h	/^	DWORD	Win32VersionValue;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+XGETTEXT	Makefile	/^XGETTEXT = \/usr\/bin\/xgettext$/;"	m	language:Make
+XGETTEXT_015	Makefile	/^XGETTEXT_015 = \/usr\/bin\/xgettext$/;"	m	language:Make
+XGETTEXT_EXTRA_OPTIONS	Makefile	/^XGETTEXT_EXTRA_OPTIONS = $/;"	m	language:Make
+_	i18n.h	19;"	d	language:C++
+_	i18n.h	26;"	d	language:C++
+_IMAGE_DATA_DIRECTORY	mycheck.h	/^typedef struct _IMAGE_DATA_DIRECTORY {$/;"	s	language:C++
+_IMAGE_DATA_DIRECTORY::Size	mycheck.h	/^	DWORD	Size;$/;"	m	language:C++	struct:_IMAGE_DATA_DIRECTORY	access:public
+_IMAGE_DATA_DIRECTORY::VirtualAddress	mycheck.h	/^	DWORD	VirtualAddress;$/;"	m	language:C++	struct:_IMAGE_DATA_DIRECTORY	access:public
+_IMAGE_DOS_HEADER	mycheck.h	/^typedef struct _IMAGE_DOS_HEADER {	\/\/ DOS .EXE header$/;"	s	language:C++
+_IMAGE_DOS_HEADER::e_cblp	mycheck.h	/^	WORD	e_cblp;					\/\/ Bytes on last page of file$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+_IMAGE_DOS_HEADER::e_cp	mycheck.h	/^	WORD	e_cp;					\/\/ Pages in file$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+_IMAGE_DOS_HEADER::e_cparhdr	mycheck.h	/^	WORD	e_cparhdr;				\/\/ Size of header in paragraphs$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+_IMAGE_DOS_HEADER::e_crlc	mycheck.h	/^	WORD	e_crlc;					\/\/ Relocations$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+_IMAGE_DOS_HEADER::e_cs	mycheck.h	/^	WORD	e_cs;					\/\/ Initial (relative) CS value$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+_IMAGE_DOS_HEADER::e_csum	mycheck.h	/^	WORD	e_csum;					\/\/ Checksum$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+_IMAGE_DOS_HEADER::e_ip	mycheck.h	/^	WORD	e_ip;					\/\/ Initial IP value$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+_IMAGE_DOS_HEADER::e_lfanew	mycheck.h	/^	LONG	e_lfanew;				\/\/ File address of new exe header$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+_IMAGE_DOS_HEADER::e_lfarlc	mycheck.h	/^	WORD	e_lfarlc;				\/\/ File address of relocation table$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+_IMAGE_DOS_HEADER::e_magic	mycheck.h	/^	WORD	e_magic;				\/\/ Magic number$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+_IMAGE_DOS_HEADER::e_maxalloc	mycheck.h	/^	WORD	e_maxalloc;				\/\/ Maximum extra paragraphs needed$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+_IMAGE_DOS_HEADER::e_minalloc	mycheck.h	/^	WORD	e_minalloc;				\/\/ Minimum extra paragraphs needed$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+_IMAGE_DOS_HEADER::e_oemid	mycheck.h	/^	WORD	e_oemid;				\/\/ OEM identifier (for e_oeminfo)$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+_IMAGE_DOS_HEADER::e_oeminfo	mycheck.h	/^	WORD	e_oeminfo;				\/\/ OEM information; e_oemid specific$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+_IMAGE_DOS_HEADER::e_ovno	mycheck.h	/^	WORD	e_ovno;					\/\/ Overlay number$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+_IMAGE_DOS_HEADER::e_res	mycheck.h	/^	WORD	e_res[4];				\/\/ Reserved words$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+_IMAGE_DOS_HEADER::e_res2	mycheck.h	/^	WORD	e_res2[10];				\/\/ Reserved words$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+_IMAGE_DOS_HEADER::e_sp	mycheck.h	/^	WORD	e_sp;					\/\/ Initial SP value$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+_IMAGE_DOS_HEADER::e_ss	mycheck.h	/^	WORD	e_ss;					\/\/ Initial (relative) SS value$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+_IMAGE_FILE_HEADER	mycheck.h	/^typedef struct _IMAGE_FILE_HEADER {$/;"	s	language:C++
+_IMAGE_FILE_HEADER::Characteristics	mycheck.h	/^	WORD	Characteristics;$/;"	m	language:C++	struct:_IMAGE_FILE_HEADER	access:public
+_IMAGE_FILE_HEADER::Machine	mycheck.h	/^	WORD	Machine;$/;"	m	language:C++	struct:_IMAGE_FILE_HEADER	access:public
+_IMAGE_FILE_HEADER::NumberOfSections	mycheck.h	/^	WORD	NumberOfSections;$/;"	m	language:C++	struct:_IMAGE_FILE_HEADER	access:public
+_IMAGE_FILE_HEADER::NumberOfSymbols	mycheck.h	/^	DWORD	NumberOfSymbols;$/;"	m	language:C++	struct:_IMAGE_FILE_HEADER	access:public
+_IMAGE_FILE_HEADER::PointerToSymbolTable	mycheck.h	/^	DWORD	PointerToSymbolTable;$/;"	m	language:C++	struct:_IMAGE_FILE_HEADER	access:public
+_IMAGE_FILE_HEADER::SizeOfOptionalHeader	mycheck.h	/^	WORD	SizeOfOptionalHeader;$/;"	m	language:C++	struct:_IMAGE_FILE_HEADER	access:public
+_IMAGE_FILE_HEADER::TimeDateStamp	mycheck.h	/^	DWORD	TimeDateStamp;$/;"	m	language:C++	struct:_IMAGE_FILE_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER	mycheck.h	/^typedef struct _IMAGE_OPTIONAL_HEADER {$/;"	s	language:C++
+_IMAGE_OPTIONAL_HEADER::AddressOfEntryPoint	mycheck.h	/^	DWORD	AddressOfEntryPoint;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::BaseOfCode	mycheck.h	/^	DWORD	BaseOfCode;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::BaseOfData	mycheck.h	/^	DWORD	BaseOfData;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::CheckSum	mycheck.h	/^	DWORD	CheckSum;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::DataDirectory	mycheck.h	/^	IMAGE_DATA_DIRECTORY DataDirectory[IMAGE_NUMBEROF_DIRECTORY_ENTRIES];$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::DllCharacteristics	mycheck.h	/^	WORD	DllCharacteristics;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::FileAlignment	mycheck.h	/^	DWORD	FileAlignment;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::ImageBase	mycheck.h	/^	DWORD	ImageBase;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::LoaderFlags	mycheck.h	/^	DWORD	LoaderFlags;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::Magic	mycheck.h	/^	WORD	Magic;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::MajorImageVersion	mycheck.h	/^	WORD	MajorImageVersion;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::MajorLinkerVersion	mycheck.h	/^	BYTE	MajorLinkerVersion;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::MajorOperatingSystemVersion	mycheck.h	/^	WORD	MajorOperatingSystemVersion;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::MajorSubsystemVersion	mycheck.h	/^	WORD	MajorSubsystemVersion;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::MinorImageVersion	mycheck.h	/^	WORD	MinorImageVersion;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::MinorLinkerVersion	mycheck.h	/^	BYTE	MinorLinkerVersion;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::MinorOperatingSystemVersion	mycheck.h	/^	WORD	MinorOperatingSystemVersion;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::MinorSubsystemVersion	mycheck.h	/^	WORD	MinorSubsystemVersion;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::NumberOfRvaAndSizes	mycheck.h	/^	DWORD	NumberOfRvaAndSizes;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::SectionAlignment	mycheck.h	/^	DWORD	SectionAlignment;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::SizeOfCode	mycheck.h	/^	DWORD	SizeOfCode;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::SizeOfHeaders	mycheck.h	/^	DWORD	SizeOfHeaders;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::SizeOfHeapCommit	mycheck.h	/^	DWORD	SizeOfHeapCommit;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::SizeOfHeapReserve	mycheck.h	/^	DWORD	SizeOfHeapReserve;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::SizeOfImage	mycheck.h	/^	DWORD	SizeOfImage;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::SizeOfInitializedData	mycheck.h	/^	DWORD	SizeOfInitializedData;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::SizeOfStackCommit	mycheck.h	/^	DWORD	SizeOfStackCommit;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::SizeOfStackReserve	mycheck.h	/^	DWORD	SizeOfStackReserve;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::SizeOfUninitializedData	mycheck.h	/^	DWORD	SizeOfUninitializedData;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::Subsystem	mycheck.h	/^	WORD	Subsystem;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_OPTIONAL_HEADER::Win32VersionValue	mycheck.h	/^	DWORD	Win32VersionValue;$/;"	m	language:C++	struct:_IMAGE_OPTIONAL_HEADER	access:public
+_IMAGE_RESOURCE_DATA_ENTRY	mycheck.h	/^typedef struct _IMAGE_RESOURCE_DATA_ENTRY {$/;"	s	language:C++
+_IMAGE_RESOURCE_DATA_ENTRY::CodePage	mycheck.h	/^	DWORD	CodePage;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DATA_ENTRY	access:public
+_IMAGE_RESOURCE_DATA_ENTRY::OffsetToData	mycheck.h	/^	DWORD	OffsetToData;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DATA_ENTRY	access:public
+_IMAGE_RESOURCE_DATA_ENTRY::Reserved	mycheck.h	/^	DWORD	Reserved;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DATA_ENTRY	access:public
+_IMAGE_RESOURCE_DATA_ENTRY::Size	mycheck.h	/^	DWORD	Size;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DATA_ENTRY	access:public
+_IMAGE_RESOURCE_DIRECTORY	mycheck.h	/^typedef struct _IMAGE_RESOURCE_DIRECTORY {$/;"	s	language:C++
+_IMAGE_RESOURCE_DIRECTORY::Characteristics	mycheck.h	/^	DWORD	Characteristics;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY	access:public
+_IMAGE_RESOURCE_DIRECTORY::DirectoryEntries	mycheck.h	/^  IMAGE_RESOURCE_DIRECTORY_ENTRY DirectoryEntries[];$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY	access:public
+_IMAGE_RESOURCE_DIRECTORY::MajorVersion	mycheck.h	/^	WORD	MajorVersion;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY	access:public
+_IMAGE_RESOURCE_DIRECTORY::MinorVersion	mycheck.h	/^	WORD	MinorVersion;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY	access:public
+_IMAGE_RESOURCE_DIRECTORY::NumberOfIdEntries	mycheck.h	/^	WORD	NumberOfIdEntries;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY	access:public
+_IMAGE_RESOURCE_DIRECTORY::NumberOfNamedEntries	mycheck.h	/^	WORD	NumberOfNamedEntries;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY	access:public
+_IMAGE_RESOURCE_DIRECTORY::TimeDateStamp	mycheck.h	/^	DWORD	TimeDateStamp;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY	access:public
+_IMAGE_RESOURCE_DIRECTORY_ENTRY	mycheck.h	/^typedef struct _IMAGE_RESOURCE_DIRECTORY_ENTRY {$/;"	s	language:C++
+_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon2::Name	mycheck.h	/^		DWORD	Name;$/;"	m	language:C++	union:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon2	access:public
+_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon2::__anon3::NameIsString	mycheck.h	/^			DWORD NameIsString:1;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon2::__anon3	access:public
+_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon2::__anon3::NameOffset	mycheck.h	/^			DWORD NameOffset:31;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon2::__anon3	access:public
+_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon2::__anon4::Id	mycheck.h	/^			WORD	Id;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon2::__anon4	access:public
+_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon2::__anon4::Id_unuse	mycheck.h	/^			WORD	Id_unuse;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon2::__anon4	access:public
+_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon5::OffsetToData	mycheck.h	/^		DWORD	OffsetToData;$/;"	m	language:C++	union:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon5	access:public
+_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon5::__anon6::DataIsDirectory	mycheck.h	/^			DWORD	DataIsDirectory:1;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon5::__anon6	access:public
+_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon5::__anon6::OffsetToDirectory	mycheck.h	/^			DWORD	OffsetToDirectory:31;$/;"	m	language:C++	struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon5::__anon6	access:public
+_IMAGE_SECTION_HEADER	mycheck.h	/^typedef struct _IMAGE_SECTION_HEADER {$/;"	s	language:C++
+_IMAGE_SECTION_HEADER::Characteristics	mycheck.h	/^	DWORD	Characteristics;$/;"	m	language:C++	struct:_IMAGE_SECTION_HEADER	access:public
+_IMAGE_SECTION_HEADER::Misc	mycheck.h	/^	} Misc;$/;"	m	language:C++	struct:_IMAGE_SECTION_HEADER	typeref:union:_IMAGE_SECTION_HEADER::__anon1	access:public
+_IMAGE_SECTION_HEADER::Name	mycheck.h	/^	char	Name[IMAGE_SIZEOF_SHORT_NAME];$/;"	m	language:C++	struct:_IMAGE_SECTION_HEADER	access:public
+_IMAGE_SECTION_HEADER::NumberOfLinenumbers	mycheck.h	/^	WORD	NumberOfLinenumbers;$/;"	m	language:C++	struct:_IMAGE_SECTION_HEADER	access:public
+_IMAGE_SECTION_HEADER::NumberOfRelocations	mycheck.h	/^	WORD	NumberOfRelocations;$/;"	m	language:C++	struct:_IMAGE_SECTION_HEADER	access:public
+_IMAGE_SECTION_HEADER::PointerToLinenumbers	mycheck.h	/^	DWORD	PointerToLinenumbers;$/;"	m	language:C++	struct:_IMAGE_SECTION_HEADER	access:public
+_IMAGE_SECTION_HEADER::PointerToRawData	mycheck.h	/^	DWORD	PointerToRawData;$/;"	m	language:C++	struct:_IMAGE_SECTION_HEADER	access:public
+_IMAGE_SECTION_HEADER::PointerToRelocations	mycheck.h	/^	DWORD	PointerToRelocations;$/;"	m	language:C++	struct:_IMAGE_SECTION_HEADER	access:public
+_IMAGE_SECTION_HEADER::SizeOfRawData	mycheck.h	/^	DWORD	SizeOfRawData;$/;"	m	language:C++	struct:_IMAGE_SECTION_HEADER	access:public
+_IMAGE_SECTION_HEADER::VirtualAddress	mycheck.h	/^	DWORD	VirtualAddress;$/;"	m	language:C++	struct:_IMAGE_SECTION_HEADER	access:public
+_IMAGE_SECTION_HEADER::__anon1::PhysicalAddress	mycheck.h	/^		DWORD	PhysicalAddress;$/;"	m	language:C++	union:_IMAGE_SECTION_HEADER::__anon1	access:public
+_IMAGE_SECTION_HEADER::__anon1::VirtualSize	mycheck.h	/^		DWORD	VirtualSize;$/;"	m	language:C++	union:_IMAGE_SECTION_HEADER::__anon1	access:public
+_PE_HEADER_MAP	mycheck.h	/^typedef struct _PE_HEADER_MAP$/;"	s	language:C++
+_PE_HEADER_MAP::_head	mycheck.h	/^	IMAGE_FILE_HEADER _head;$/;"	m	language:C++	struct:_PE_HEADER_MAP	access:public
+_PE_HEADER_MAP::opt_head	mycheck.h	/^	IMAGE_OPTIONAL_HEADER opt_head;$/;"	m	language:C++	struct:_PE_HEADER_MAP	access:public
+_PE_HEADER_MAP::section_header	mycheck.h	/^	IMAGE_SECTION_HEADER section_header[8];$/;"	m	language:C++	struct:_PE_HEADER_MAP	access:public
+_PE_HEADER_MAP::signature	mycheck.h	/^	DWORD signature;$/;"	m	language:C++	struct:_PE_HEADER_MAP	access:public
+_VS_VERSIONINFO	mycheck.h	/^typedef struct _VS_VERSIONINFO { $/;"	s	language:C++
+_VS_VERSIONINFO::Padding1	mycheck.h	/^	WORD	Padding1[1];$/;"	m	language:C++	struct:_VS_VERSIONINFO	access:public
+_VS_VERSIONINFO::Value	mycheck.h	/^	VS_FIXEDFILEINFO Value;$/;"	m	language:C++	struct:_VS_VERSIONINFO	access:public
+_VS_VERSIONINFO::szKey	mycheck.h	/^	WORD	szKey[16];$/;"	m	language:C++	struct:_VS_VERSIONINFO	access:public
+_VS_VERSIONINFO::wLength	mycheck.h	/^	WORD	wLength;$/;"	m	language:C++	struct:_VS_VERSIONINFO	access:public
+_VS_VERSIONINFO::wType	mycheck.h	/^	WORD	wType;$/;"	m	language:C++	struct:_VS_VERSIONINFO	access:public
+_VS_VERSIONINFO::wValueLength	mycheck.h	/^	WORD	wValueLength;$/;"	m	language:C++	struct:_VS_VERSIONINFO	access:public
+__anon7::buffer	md5.h	/^  UCHAR buffer[64];						 \/* input buffer *\/$/;"	m	language:C++	struct:__anon7	access:public
+__anon7::count	md5.h	/^  UINT4 count[2];		\/* number of bits, modulo 2^64 (lsb first) *\/$/;"	m	language:C++	struct:__anon7	access:public
+__anon7::state	md5.h	/^  UINT4 state[4];								   \/* state (ABCD) *\/$/;"	m	language:C++	struct:__anon7	access:public
+_head	mycheck.h	/^	IMAGE_FILE_HEADER _head;$/;"	m	language:C++	struct:_PE_HEADER_MAP	access:public
+abs_builddir	Makefile	/^abs_builddir = \/home\/bigeagle\/workspace\/mentohust\/src$/;"	m	language:Make
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/bigeagle\/workspace\/mentohust\/src$/;"	m	language:Make
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/bigeagle\/workspace\/mentohust$/;"	m	language:Make
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/bigeagle\/workspace\/mentohust$/;"	m	language:Make
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m	language:Make
+addresses	dlfunc.h	/^	void *addresses;$/;"	m	language:C++	struct:pcap_if	access:public
+am__DEPENDENCIES_1	Makefile	/^am__DEPENDENCIES_1 =$/;"	m	language:Make
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m	language:Make
+am__base_list	Makefile	/^am__base_list = \\$/;"	m	language:Make
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m	language:Make
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m	language:Make
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m	language:Make
+am__include	Makefile	/^am__include = include$/;"	m	language:Make
+am__install_max	Makefile	/^am__install_max = 40$/;"	m	language:Make
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)" "$(DESTDIR)$(sysconfdir)"$/;"	m	language:Make
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m	language:Make
+am__mv	Makefile	/^am__mv = mv -f$/;"	m	language:Make
+am__nobase_list	Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m	language:Make
+am__nobase_strip	Makefile	/^am__nobase_strip = \\$/;"	m	language:Make
+am__nobase_strip_setup	Makefile	/^am__nobase_strip_setup = \\$/;"	m	language:Make
+am__quote	Makefile	/^am__quote = $/;"	m	language:Make
+am__strip_dir	Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m	language:Make
+am__tar	Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m	language:Make
+am__untar	Makefile	/^am__untar = ${AMTAR} xf -$/;"	m	language:Make
+am__v_CCLD_	Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m	language:Make
+am__v_CCLD_0	Makefile	/^am__v_CCLD_0 = @echo "  CCLD  " $@;$/;"	m	language:Make
+am__v_CC_	Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m	language:Make
+am__v_CC_0	Makefile	/^am__v_CC_0 = @echo "  CC    " $@;$/;"	m	language:Make
+am__v_GEN_	Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m	language:Make
+am__v_GEN_0	Makefile	/^am__v_GEN_0 = @echo "  GEN   " $@;$/;"	m	language:Make
+am__v_at_	Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m	language:Make
+am__v_at_0	Makefile	/^am__v_at_0 = @$/;"	m	language:Make
+am__vpath_adj	Makefile	/^am__vpath_adj = case $$p in \\$/;"	m	language:Make
+am__vpath_adj_setup	Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m	language:Make
+am_mentohust_OBJECTS	Makefile	/^am_mentohust_OBJECTS = myini.$(OBJEXT) md5.$(OBJEXT) mycheck.$(OBJEXT) \\$/;"	m	language:Make
+base64Tab	myconfig.c	/^static const unsigned char base64Tab[] = {"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+\/"};$/;"	v	language:C	file:
+bf_insns	dlfunc.h	/^	void *bf_insns;$/;"	m	language:C++	struct:bpf_program	access:public
+bf_len	dlfunc.h	/^	unsigned int bf_len;$/;"	m	language:C++	struct:bpf_program	access:public
+bin_8021x	mycheck.c	/^static BYTE *bin_8021x = NULL;$/;"	v	language:C	file:
+bin_PROGRAMS	Makefile	/^bin_PROGRAMS = mentohust$(EXEEXT)$/;"	m	language:Make
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m	language:Make
+bpf_program	dlfunc.h	/^struct bpf_program {$/;"	s	language:C++
+bpf_program::bf_insns	dlfunc.h	/^	void *bf_insns;$/;"	m	language:C++	struct:bpf_program	access:public
+bpf_program::bf_len	dlfunc.h	/^	unsigned int bf_len;$/;"	m	language:C++	struct:bpf_program	access:public
+bpf_u_int32	dlfunc.h	/^typedef unsigned int bpf_u_int32;$/;"	t	language:C++
+bufType	myfunc.c	/^int bufType = 0;	\/*0内置xrgsu 1内置Win 2仅文件 3文件+校验*\/$/;"	v	language:C
+buffer	md5.h	/^  UCHAR buffer[64];						 \/* input buffer *\/$/;"	m	language:C++	struct:__anon7	access:public
+build	Makefile	/^build = i686-pc-linux-gnu$/;"	m	language:Make
+build_alias	Makefile	/^build_alias = $/;"	m	language:Make
+build_cpu	Makefile	/^build_cpu = i686$/;"	m	language:Make
+build_os	Makefile	/^build_os = linux-gnu$/;"	m	language:Make
+build_triplet	Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m	language:Make
+build_vendor	Makefile	/^build_vendor = pc$/;"	m	language:Make
+builddir	Makefile	/^builddir = .$/;"	m	language:Make
+capBuf	mystate.c	/^const u_char *capBuf = NULL;	\/* 抓到的包 *\/$/;"	v	language:C
+caplen	dlfunc.h	/^	bpf_u_int32 caplen;$/;"	m	language:C++	struct:pcap_pkthdr	access:public
+checkFile	myfunc.c	/^static int checkFile() {$/;"	f	language:C	file:
+checkFile	myfunc.c	/^static int checkFile();	\/* 检查数据文件 *\/$/;"	p	language:C	file:
+checkPass	myfunc.c	/^u_char *checkPass(u_char id, const u_char *md5Seed, int seedLen)$/;"	f	language:C	signature:(u_char id, const u_char *md5Seed, int seedLen)
+checkPass	myfunc.h	/^u_char *checkPass(u_char id, const u_char *md5Seed, int seedLen);	\/* 计算密码的md5 *\/$/;"	p	language:C++	signature:(u_char id, const u_char *md5Seed, int seedLen)
+checkRunning	myconfig.c	/^static void checkRunning(int exitFlag, int daemonMode)$/;"	f	language:C	file:	signature:(int exitFlag, int daemonMode)
+checkRunning	myconfig.c	/^static void checkRunning(int exitFlag, int daemonMode);	\/* 检测是否已运行 *\/$/;"	p	language:C	file:	signature:(int exitFlag, int daemonMode)
+checkSum	myfunc.c	/^static void checkSum(u_char *buf)	\/* 算法，计算两个字节的checksum *\/$/;"	f	language:C	file:	signature:(u_char *buf)
+checkSum	myfunc.c	/^static void checkSum(u_char *buf);	\/* 锐捷算法，计算两个字节的检验值 *\/$/;"	p	language:C	file:	signature:(u_char *buf)
+check_free	mycheck.c	/^void check_free() {$/;"	f	language:C
+check_free	mycheck.h	/^void check_free();$/;"	p	language:C++	signature:()
+check_init	mycheck.c	/^int check_init(const char *dataFile) {$/;"	f	language:C	signature:(const char *dataFile)
+check_init	mycheck.h	/^int check_init(const char *dataFile);$/;"	p	language:C++	signature:(const char *dataFile)
+count	md5.h	/^  UINT4 count[2];		\/* number of bits, modulo 2^64 (lsb first) *\/$/;"	m	language:C++	struct:__anon7	access:public
+dataFile	myconfig.c	/^char dataFile[MAX_PATH] = "";	\/* 数据文件 *\/$/;"	v	language:C
+dataOffset	myfunc.c	/^static int dataOffset;	\/* 抓包偏移 *\/$/;"	v	language:C	file:
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m	language:Make
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m	language:Make
+decodeConfig	mycheck.c	/^int decodeConfig(const char *file, BYTE *dbuf, int dsize) {$/;"	f	language:C	signature:(const char *file, BYTE *dbuf, int dsize)
+decodeConfig	mycheck.h	/^int decodeConfig(const char *file, BYTE *dbuf, int dsize);$/;"	p	language:C++	signature:(const char *file, BYTE *dbuf, int dsize)
+decodePass	myconfig.c	/^static int decodePass(char *dst, const char *src) {$/;"	f	language:C	file:	signature:(char *dst, const char *src)
+decode_dat	mycheck.c	/^static void decode_dat(BYTE *src, BYTE *dst, int src_len, int dst_len) {$/;"	f	language:C	file:	signature:(BYTE *src, BYTE *dst, int src_len, int dst_len)
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m	language:Make
+description	dlfunc.h	/^	char *description;$/;"	m	language:C++	struct:pcap_if	access:public
+destMAC	myconfig.c	/^u_char destMAC[6];	\/* 服务器MAC *\/$/;"	v	language:C
+dhcpMode	myconfig.c	/^unsigned dhcpMode = D_DHCPMODE;	\/* DHCP模式 *\/$/;"	v	language:C
+dhcpScript	myconfig.c	/^char dhcpScript[MAX_PATH] = "";	\/* DHCP脚本 *\/$/;"	v	language:C
+dist_sysconf_DATA	Makefile	/^dist_sysconf_DATA = mentohust.conf$/;"	m	language:Make
+dns	myconfig.c	/^u_int32_t dns = 0;	\/* DNS *\/$/;"	v	language:C
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m	language:Make
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m	language:Make
+dwFileDateLS	mycheck.h	/^	DWORD	dwFileDateLS;			\/* e.g. 0 *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+dwFileDateMS	mycheck.h	/^	DWORD	dwFileDateMS;			\/* e.g. 0 *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+dwFileFlags	mycheck.h	/^	DWORD	dwFileFlags;			\/* e.g. VFF_DEBUG | VFF_PRERELEASE *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+dwFileFlagsMask	mycheck.h	/^	DWORD	dwFileFlagsMask;		\/* = 0x3F for version "0.42" *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+dwFileOS	mycheck.h	/^	DWORD	dwFileOS;				\/* e.g. VOS_DOS_WINDOWS16 *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+dwFileSubtype	mycheck.h	/^	DWORD	dwFileSubtype;			\/* e.g. VFT2_DRV_KEYBOARD *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+dwFileType	mycheck.h	/^	DWORD	dwFileType;				\/* e.g. VFT_DRIVER *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+dwFileVersionLS	mycheck.h	/^	DWORD	dwFileVersionLS;		\/* e.g. 0x00000031 = "0.31" *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+dwFileVersionMS	mycheck.h	/^	DWORD	dwFileVersionMS;		\/* e.g. 0x00030075 = "3.75" *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+dwProductVersionLS	mycheck.h	/^	DWORD	dwProductVersionLS;		\/* e.g. 0x00000031 = "0.31" *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+dwProductVersionMS	mycheck.h	/^	DWORD	dwProductVersionMS;		\/* e.g. 0x00030010 = "3.10" *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+dwSignature	mycheck.h	/^	DWORD	dwSignature;			\/* e.g. 0xfeef04bd *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+dwStrucVersion	mycheck.h	/^	DWORD	dwStrucVersion;			\/* e.g. 0x00000042 = "0.42" *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+e_cblp	mycheck.h	/^	WORD	e_cblp;					\/\/ Bytes on last page of file$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+e_cp	mycheck.h	/^	WORD	e_cp;					\/\/ Pages in file$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+e_cparhdr	mycheck.h	/^	WORD	e_cparhdr;				\/\/ Size of header in paragraphs$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+e_crlc	mycheck.h	/^	WORD	e_crlc;					\/\/ Relocations$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+e_cs	mycheck.h	/^	WORD	e_cs;					\/\/ Initial (relative) CS value$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+e_csum	mycheck.h	/^	WORD	e_csum;					\/\/ Checksum$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+e_ip	mycheck.h	/^	WORD	e_ip;					\/\/ Initial IP value$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+e_lfanew	mycheck.h	/^	LONG	e_lfanew;				\/\/ File address of new exe header$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+e_lfarlc	mycheck.h	/^	WORD	e_lfarlc;				\/\/ File address of relocation table$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+e_magic	mycheck.h	/^	WORD	e_magic;				\/\/ Magic number$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+e_maxalloc	mycheck.h	/^	WORD	e_maxalloc;				\/\/ Maximum extra paragraphs needed$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+e_minalloc	mycheck.h	/^	WORD	e_minalloc;				\/\/ Minimum extra paragraphs needed$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+e_oemid	mycheck.h	/^	WORD	e_oemid;				\/\/ OEM identifier (for e_oeminfo)$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+e_oeminfo	mycheck.h	/^	WORD	e_oeminfo;				\/\/ OEM information; e_oemid specific$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+e_ovno	mycheck.h	/^	WORD	e_ovno;					\/\/ Overlay number$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+e_res	mycheck.h	/^	WORD	e_res[4];				\/\/ Reserved words$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+e_res2	mycheck.h	/^	WORD	e_res2[10];				\/\/ Reserved words$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+e_sp	mycheck.h	/^	WORD	e_sp;					\/\/ Initial SP value$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+e_ss	mycheck.h	/^	WORD	e_ss;					\/\/ Initial (relative) SS value$/;"	m	language:C++	struct:_IMAGE_DOS_HEADER	access:public
+echoInterval	myconfig.c	/^unsigned echoInterval = D_ECHOINTERVAL;	\/* 心跳间隔 *\/$/;"	v	language:C
+echoKey	myfunc.c	/^static u_int32_t echoKey = 0, echoNo = 0;	\/* Echo阶段所需 *\/$/;"	v	language:C	file:
+echoNo	myfunc.c	/^static u_int32_t echoKey = 0, echoNo = 0;	\/* Echo阶段所需 *\/$/;"	v	language:C	file:
+encode	myfunc.c	/^static u_char encode(u_char base)	\/* 算法，将一个字节的8位颠倒并取反 *\/$/;"	f	language:C	file:	signature:(u_char base)
+encode	myfunc.c	/^static u_char encode(u_char base);	\/* 锐捷算法，颠倒一个字节的8位 *\/$/;"	p	language:C	file:	signature:(u_char base)
+encodePass	myconfig.c	/^static int encodePass(char *dst, const char *osrc) {$/;"	f	language:C	file:	signature:(char *dst, const char *osrc)
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m	language:Make
+exit_handle	mentohust.c	/^static void exit_handle(void)$/;"	f	language:C	file:	signature:(void)
+exit_handle	mentohust.c	/^static void exit_handle(void);	\/* 退出回调 *\/$/;"	p	language:C	file:	signature:(void)
+fillBuf	myfunc.c	/^u_char *fillBuf = NULL;	\/* 填充包地址 *\/$/;"	v	language:C
+fillCernetAddr	myfunc.c	/^void fillCernetAddr(u_char *buf)$/;"	f	language:C	signature:(u_char *buf)
+fillCernetAddr	myfunc.h	/^void fillCernetAddr(u_char *buf);	\/* 填充赛尔网络地址 *\/$/;"	p	language:C++	signature:(u_char *buf)
+fillEchoPacket	myfunc.c	/^void fillEchoPacket(u_char *echoBuf)$/;"	f	language:C	signature:(u_char *echoBuf)
+fillEchoPacket	myfunc.h	/^void fillEchoPacket(u_char *buf);	\/* 填充Echo包 *\/$/;"	p	language:C++	signature:(u_char *buf)
+fillEtherAddr	mystate.c	/^static void fillEtherAddr(u_int32_t protocol)$/;"	f	language:C	file:	signature:(u_int32_t protocol)
+fillEtherAddr	mystate.c	/^static void fillEtherAddr(u_int32_t protocol);  \/* 填充MAC地址和协议 *\/$/;"	p	language:C	file:	signature:(u_int32_t protocol)
+fillHeader	myfunc.c	/^int fillHeader()$/;"	f	language:C
+fillHeader	myfunc.h	/^int fillHeader();	\/* 填充网络地址及校验值部分 *\/$/;"	p	language:C++	signature:()
+fillMd5Packet	myfunc.c	/^void fillMd5Packet(const u_char *md5Seed)$/;"	f	language:C	signature:(const u_char *md5Seed)
+fillMd5Packet	myfunc.h	/^void fillMd5Packet(const u_char *md5Seed);	\/* 填充Md5包 *\/$/;"	p	language:C++	signature:(const u_char *md5Seed)
+fillSize	myfunc.c	/^int fillSize = 0;	\/* 填充包大小 *\/$/;"	v	language:C
+fillStartPacket	myfunc.c	/^void fillStartPacket()$/;"	f	language:C
+fillStartPacket	myfunc.h	/^void fillStartPacket();	\/* 填充Start包 *\/$/;"	p	language:C++	signature:()
+findKey	myini.c	/^static int findKey(const char *buf, const char *section, const char *key,$/;"	f	language:C	file:	signature:(const char *buf, const char *section, const char *key, int *sectionStart, int *valueStart, unsigned long *valueSize)
+findKey	myini.c	/^static int findKey(const char *buf, const char *section, const char *key,$/;"	p	language:C	file:	signature:(const char *buf, const char *section, const char *key, int *sectionStart, int *valueStart, unsigned long *valueSize)
+flags	dlfunc.h	/^	bpf_u_int32 flags;$/;"	m	language:C++	struct:pcap_if	access:public
+formatHex	myfunc.c	/^char *formatHex(const void *buf, int length)$/;"	f	language:C	signature:(const void *buf, int length)
+formatHex	myfunc.h	/^char *formatHex(const void *buf, int length);	\/* 格式化成十六进制形式 *\/$/;"	p	language:C++	signature:(const void *buf, int length)
+formatIP	myfunc.c	/^char *formatIP(u_int32_t ip)$/;"	f	language:C	signature:(u_int32_t ip)
+formatIP	myfunc.h	/^char *formatIP(u_int32_t ip);	\/* 格式化IP *\/$/;"	p	language:C++	signature:(u_int32_t ip)
+free_libnotify	dlfunc.c	/^void free_libnotify(void) {$/;"	f	language:C	signature:(void)
+free_libnotify	dlfunc.h	/^void free_libnotify(void);	\/* 释放libnotify.so *\/$/;"	p	language:C++	signature:(void)
+free_libpcap	dlfunc.c	/^void free_libpcap(void) {$/;"	f	language:C	signature:(void)
+free_libpcap	dlfunc.h	/^void free_libpcap(void);	\/* 释放libpcap.so *\/$/;"	p	language:C++	signature:(void)
+gateMAC	myfunc.c	/^u_char gateMAC[6];	\/* 网关MAC *\/$/;"	v	language:C
+gateway	myconfig.c	/^u_int32_t gateway = 0;	\/* 网关 *\/$/;"	v	language:C
+gbk2utf	myfunc.c	/^char *gbk2utf(char *src, size_t srclen) {$/;"	f	language:C	signature:(char *src, size_t srclen)
+gbk2utf	myfunc.h	/^char *gbk2utf(char *src, size_t srclen);	\/* GBK转UTF－8 *\/$/;"	p	language:C++	signature:(char *src, size_t srclen)
+gboolean	dlfunc.c	/^typedef int gint, gboolean;$/;"	t	language:C	file:
+gchar	dlfunc.c	/^typedef char gchar;$/;"	t	language:C	file:
+getAdapter	myconfig.c	/^static int getAdapter()$/;"	f	language:C	file:
+getAdapter	myconfig.c	/^static int getAdapter();	\/* 查找网卡名 *\/$/;"	p	language:C	file:
+getAddress	myfunc.c	/^static int getAddress()$/;"	f	language:C	file:
+getAddress	myfunc.c	/^static int getAddress();	\/* 获取网络地址 *\/$/;"	p	language:C	file:
+getEchoKey	myfunc.c	/^void getEchoKey(const u_char *capBuf)$/;"	f	language:C	signature:(const u_char *capBuf)
+getEchoKey	myfunc.h	/^void getEchoKey(const u_char *capBuf);	\/* 获取EchoKey *\/$/;"	p	language:C++	signature:(const u_char *capBuf)
+getInt	myini.c	/^int getInt(const char *buf, const char *section, const char *key, int defaultValue)$/;"	f	language:C	signature:(const char *buf, const char *section, const char *key, int defaultValue)
+getInt	myini.h	/^int getInt(const char *buf, const char *section, const char *key, int defaultValue);	\/* 读取整数 *\/$/;"	p	language:C++	signature:(const char *buf, const char *section, const char *key, int defaultValue)
+getLine	myini.c	/^static void getLine(const char *buf, int inStart, int *lineStart, int *lineEnd)$/;"	f	language:C	file:	signature:(const char *buf, int inStart, int *lineStart, int *lineEnd)
+getLine	myini.c	/^static void getLine(const char *buf, int inStart, int *lineStart, int *lineEnd);$/;"	p	language:C	file:	signature:(const char *buf, int inStart, int *lineStart, int *lineEnd)
+getSection	myini.c	/^static int getSection(const char *buf, int inStart)$/;"	f	language:C	file:	signature:(const char *buf, int inStart)
+getSection	myini.c	/^static int getSection(const char *buf, int inStart);$/;"	p	language:C	file:	signature:(const char *buf, int inStart)
+getString	myini.c	/^int getString(const char *buf, const char *section, const char *key,$/;"	f	language:C	signature:(const char *buf, const char *section, const char *key, const char *defaultValue, char *value, unsigned long size)
+getString	myini.h	/^int getString(const char *buf, const char *section, const char *key,$/;"	p	language:C++	signature:(const char *buf, const char *section, const char *key, const char *defaultValue, char *value, unsigned long size)
+getVer	mycheck.c	/^DWORD getVer(const char *file) {$/;"	f	language:C	signature:(const char *file)
+getVer	mycheck.h	/^DWORD getVer(const char *file);$/;"	p	language:C++	signature:(const char *file)
+getVersion	myfunc.c	/^static int getVersion() {$/;"	f	language:C	file:
+getVersion	myfunc.c	/^static int getVersion();	\/* 获取8021x.exe版本号 *\/$/;"	p	language:C	file:
+gint	dlfunc.c	/^typedef int gint, gboolean;$/;"	t	language:C	file:
+hPcap	myconfig.c	/^pcap_t *hPcap = NULL;	\/* Pcap句柄 *\/$/;"	v	language:C
+hex_to_str	mycheck.c	/^void hex_to_str(const BYTE *a, char *b, int hexsize, int upper) {$/;"	f	language:C	signature:(const BYTE *a, char *b, int hexsize, int upper)
+host	Makefile	/^host = i686-pc-linux-gnu$/;"	m	language:Make
+host_alias	Makefile	/^host_alias = $/;"	m	language:Make
+host_cpu	Makefile	/^host_cpu = i686$/;"	m	language:Make
+host_os	Makefile	/^host_os = linux-gnu$/;"	m	language:Make
+host_triplet	Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m	language:Make
+host_vendor	Makefile	/^host_vendor = pc$/;"	m	language:Make
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m	language:Make
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m	language:Make
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m	language:Make
+initConfig	myconfig.c	/^void initConfig(int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
+initConfig	myconfig.h	/^void initConfig(int argc, char **argv);	\/* 初始化配置 *\/$/;"	p	language:C++	signature:(int argc, char **argv)
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/bigeagle\/workspace\/mentohust\/install-sh$/;"	m	language:Make
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m	language:Make
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m	language:Make
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m	language:Make
+ip	myconfig.c	/^u_int32_t ip = 0;	\/* 本机IP *\/$/;"	v	language:C
+isOnline	myfunc.c	/^int isOnline()$/;"	f	language:C
+isOnline	myfunc.h	/^int isOnline();	\/* ping主机判断是否掉线 *\/$/;"	p	language:C++	signature:()
+len	dlfunc.h	/^	bpf_u_int32 len;$/;"	m	language:C++	struct:pcap_pkthdr	access:public
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m	language:Make
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m	language:Make
+libnotify	dlfunc.c	/^static void *libnotify = NULL;$/;"	v	language:C	file:
+libpcap	dlfunc.c	/^static void *libpcap = NULL;$/;"	v	language:C	file:
+loadFile	myini.c	/^long loadFile(char **buf, const char *fileName)$/;"	f	language:C	signature:(char **buf, const char *fileName)
+loadFile	myini.h	/^long loadFile(char **buf, const char *fileName);	\/* 读取文件 *\/$/;"	p	language:C++	signature:(char **buf, const char *fileName)
+load_libnotify	dlfunc.c	/^static int load_libnotify(void) {$/;"	f	language:C	file:	signature:(void)
+load_libpcap	dlfunc.c	/^int load_libpcap(void) {$/;"	f	language:C	signature:(void)
+load_libpcap	dlfunc.h	/^int load_libpcap(void);	\/* 载入libpcap.so *\/$/;"	p	language:C++	signature:(void)
+localMAC	myconfig.c	/^u_char localMAC[6];	\/* 本机MAC *\/$/;"	v	language:C
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m	language:Make
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m	language:Make
+lockfd	myconfig.c	/^int lockfd = -1;	\/* 锁文件描述符 *\/$/;"	v	language:C
+ltobl	mycheck.c	/^DWORD ltobl(DWORD x) {$/;"	f	language:C	signature:(DWORD x)
+ltobl	mycheck.h	/^DWORD ltobl(DWORD x);$/;"	p	language:C++	signature:(DWORD x)
+ltobs	mycheck.c	/^WORD ltobs(WORD x) {$/;"	f	language:C	signature:(WORD x)
+ltobs	mycheck.h	/^WORD ltobs(WORD x);$/;"	p	language:C++	signature:(WORD x)
+main	mentohust.c	/^int main(int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m	language:Make
+mask	myconfig.c	/^u_int32_t mask = 0;	\/* 子网掩码 *\/$/;"	v	language:C
+maxFail	myconfig.c	/^unsigned maxFail = D_MAXFAIL;	\/* 允许失败次数 *\/$/;"	v	language:C
+mentohust_DEPENDENCIES	Makefile	/^mentohust_DEPENDENCIES = $(am__DEPENDENCIES_1)$/;"	m	language:Make
+mentohust_LDADD	Makefile	/^mentohust_LDADD = $(LDADD)$/;"	m	language:Make
+mentohust_OBJECTS	Makefile	/^mentohust_OBJECTS = $(am_mentohust_OBJECTS)$/;"	m	language:Make
+mentohust_SOURCES	Makefile	/^mentohust_SOURCES = myini.c md5.c mycheck.c dlfunc.c myfunc.c \\$/;"	m	language:Make
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m	language:Make
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m	language:Make
+name	dlfunc.h	/^	char *name;$/;"	m	language:C++	struct:pcap_if	access:public
+newBuffer	myfunc.c	/^void newBuffer()$/;"	f	language:C
+newBuffer	myfunc.h	/^void newBuffer();	\/* 检测数据文件有效性并分配内存 *\/$/;"	p	language:C++	signature:()
+next	dlfunc.h	/^	struct pcap_if *next;$/;"	m	language:C++	struct:pcap_if	typeref:struct:pcap_if::pcap_if	access:public
+nic	myconfig.c	/^char nic[NIC_SIZE] = "";	\/* 网卡名 *\/$/;"	v	language:C
+notify	dlfunc.c	/^static NotifyNotification *notify = NULL;$/;"	v	language:C	file:
+notify_notification_set_timeout	dlfunc.c	/^static void (*notify_notification_set_timeout)(NotifyNotification *, gint);$/;"	v	language:C	file:
+notify_notification_show	dlfunc.c	/^static gboolean (*notify_notification_show)(NotifyNotification *, GError **);$/;"	v	language:C	file:
+notify_notification_update	dlfunc.c	/^static gboolean (*notify_notification_update)(NotifyNotification *, const gchar *,$/;"	v	language:C	file:
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m	language:Make
+openPcap	myconfig.c	/^static int openPcap()$/;"	f	language:C	file:
+openPcap	myconfig.c	/^static int openPcap();	\/* 初始化pcap、设置过滤器 *\/$/;"	p	language:C	file:
+opt_head	mycheck.h	/^	IMAGE_OPTIONAL_HEADER opt_head;$/;"	m	language:C++	struct:_PE_HEADER_MAP	access:public
+password	myconfig.c	/^char password[ACCOUNT_SIZE] = "";	\/* 密码 *\/$/;"	v	language:C
+pcap_breakloop	dlfunc.c	/^void (*pcap_breakloop)(pcap_t *);$/;"	v	language:C
+pcap_breakloop	dlfunc.h	/^void pcap_breakloop(pcap_t *);$/;"	p	language:C++	signature:(pcap_t *)
+pcap_close	dlfunc.c	/^void (*pcap_close)(pcap_t *);$/;"	v	language:C
+pcap_close	dlfunc.h	/^void pcap_close(pcap_t *);$/;"	p	language:C++	signature:(pcap_t *)
+pcap_compile	dlfunc.c	/^int (*pcap_compile)(pcap_t *, struct bpf_program *, const char *, int, bpf_u_int32);$/;"	v	language:C
+pcap_compile	dlfunc.h	/^int pcap_compile(pcap_t *, struct bpf_program *, const char *, int, bpf_u_int32);$/;"	p	language:C++	signature:(pcap_t *, struct bpf_program *, const char *, int, bpf_u_int32)
+pcap_findalldevs	dlfunc.c	/^int (*pcap_findalldevs)(pcap_if_t **, char *);$/;"	v	language:C
+pcap_findalldevs	dlfunc.h	/^int pcap_findalldevs(pcap_if_t **, char *);$/;"	p	language:C++	signature:(pcap_if_t **, char *)
+pcap_freealldevs	dlfunc.c	/^void (*pcap_freealldevs)(pcap_if_t *);$/;"	v	language:C
+pcap_freealldevs	dlfunc.h	/^void pcap_freealldevs(pcap_if_t *);$/;"	p	language:C++	signature:(pcap_if_t *)
+pcap_freecode	dlfunc.c	/^void (*pcap_freecode)(struct bpf_program *);$/;"	v	language:C
+pcap_freecode	dlfunc.h	/^void pcap_freecode(struct bpf_program *);$/;"	p	language:C++	signature:(struct bpf_program *)
+pcap_geterr	dlfunc.c	/^char *(*pcap_geterr)(pcap_t *);$/;"	v	language:C
+pcap_geterr	dlfunc.h	/^char *pcap_geterr(pcap_t *);$/;"	p	language:C++	signature:(pcap_t *)
+pcap_handle	mentohust.c	/^static void pcap_handle(u_char *user, const struct pcap_pkthdr *h, const u_char *buf)$/;"	f	language:C	file:	signature:(u_char *user, const struct pcap_pkthdr *h, const u_char *buf)
+pcap_handle	mentohust.c	/^static void pcap_handle(u_char *user, const struct pcap_pkthdr *h, const u_char *buf);	\/* pcap_loop回调 *\/$/;"	p	language:C	file:	signature:(u_char *user, const struct pcap_pkthdr *h, const u_char *buf)
+pcap_handler	dlfunc.h	/^typedef void (*pcap_handler)(unsigned char *, const struct pcap_pkthdr *, const unsigned char *);$/;"	t	language:C++
+pcap_if	dlfunc.h	/^typedef struct pcap_if {$/;"	s	language:C++
+pcap_if::addresses	dlfunc.h	/^	void *addresses;$/;"	m	language:C++	struct:pcap_if	access:public
+pcap_if::description	dlfunc.h	/^	char *description;$/;"	m	language:C++	struct:pcap_if	access:public
+pcap_if::flags	dlfunc.h	/^	bpf_u_int32 flags;$/;"	m	language:C++	struct:pcap_if	access:public
+pcap_if::name	dlfunc.h	/^	char *name;$/;"	m	language:C++	struct:pcap_if	access:public
+pcap_if::next	dlfunc.h	/^	struct pcap_if *next;$/;"	m	language:C++	struct:pcap_if	typeref:struct:pcap_if::pcap_if	access:public
+pcap_if_t	dlfunc.h	/^}pcap_if_t;$/;"	t	language:C++	typeref:struct:pcap_if
+pcap_loop	dlfunc.c	/^int (*pcap_loop)(pcap_t *, int, pcap_handler, unsigned char *);$/;"	v	language:C
+pcap_loop	dlfunc.h	/^int pcap_loop(pcap_t *, int, pcap_handler, unsigned char *);$/;"	p	language:C++	signature:(pcap_t *, int, pcap_handler, unsigned char *)
+pcap_open_live	dlfunc.c	/^pcap_t *(*pcap_open_live)(const char *, int, int, int, char *);$/;"	v	language:C
+pcap_open_live	dlfunc.h	/^pcap_t *pcap_open_live(const char *, int, int, int, char *);$/;"	p	language:C++	signature:(const char *, int, int, int, char *)
+pcap_pkthdr	dlfunc.h	/^struct pcap_pkthdr {$/;"	s	language:C++
+pcap_pkthdr::caplen	dlfunc.h	/^	bpf_u_int32 caplen;$/;"	m	language:C++	struct:pcap_pkthdr	access:public
+pcap_pkthdr::len	dlfunc.h	/^	bpf_u_int32 len;$/;"	m	language:C++	struct:pcap_pkthdr	access:public
+pcap_pkthdr::ts	dlfunc.h	/^	struct timeval ts;$/;"	m	language:C++	struct:pcap_pkthdr	typeref:struct:pcap_pkthdr::timeval	access:public
+pcap_sendpacket	dlfunc.c	/^int (*pcap_sendpacket)(pcap_t *, const unsigned char *, int);$/;"	v	language:C
+pcap_sendpacket	dlfunc.h	/^int pcap_sendpacket(pcap_t *, const unsigned char *, int);$/;"	p	language:C++	signature:(pcap_t *, const unsigned char *, int)
+pcap_setfilter	dlfunc.c	/^int (*pcap_setfilter)(pcap_t *, struct bpf_program *);$/;"	v	language:C
+pcap_setfilter	dlfunc.h	/^int pcap_setfilter(pcap_t *, struct bpf_program *);$/;"	p	language:C++	signature:(pcap_t *, struct bpf_program *)
+pcap_t	dlfunc.h	/^typedef void pcap_t;$/;"	t	language:C++
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m	language:Make
+pingHost	myconfig.c	/^u_int32_t pingHost = 0;	\/* ping *\/$/;"	v	language:C
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/mentohust$/;"	m	language:Make
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/mentohust$/;"	m	language:Make
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/mentohust$/;"	m	language:Make
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/mentohust$/;"	m	language:Make
+prefix	Makefile	/^prefix = \/usr$/;"	m	language:Make
+printConfig	myconfig.c	/^static void printConfig()$/;"	f	language:C	file:
+printConfig	myconfig.c	/^static void printConfig();	\/* 显示初始化后的认证参数 *\/$/;"	p	language:C	file:
+printSuConfig	myfunc.c	/^void printSuConfig(const char *SuConfig) {$/;"	f	language:C	signature:(const char *SuConfig)
+printSuConfig	myfunc.h	/^void printSuConfig(const char *SuConfig);   \/* 显示锐捷配置文件 *\/$/;"	p	language:C++	signature:(const char *SuConfig)
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m	language:Make
+psdir	Makefile	/^psdir = ${docdir}$/;"	m	language:Make
+readArg	myconfig.c	/^static void readArg(char argc, char **argv, int *saveFlag, int *exitFlag, int *daemonMode)$/;"	f	language:C	file:	signature:(char argc, char **argv, int *saveFlag, int *exitFlag, int *daemonMode)
+readArg	myconfig.c	/^static void readArg(char argc, char **argv, int *saveFlag, int *exitFlag, int *daemonMode);	\/* 读取命令行参数来初始化 *\/$/;"	p	language:C	file:	signature:(char argc, char **argv, int *saveFlag, int *exitFlag, int *daemonMode)
+readFile	myconfig.c	/^static int readFile(int *daemonMode)$/;"	f	language:C	file:	signature:(int *daemonMode)
+readFile	myconfig.c	/^static int readFile(int *daemonMode);	\/* 读取配置文件来初始化 *\/$/;"	p	language:C	file:	signature:(int *daemonMode)
+readPacket	myfunc.c	/^static int readPacket(int type)$/;"	f	language:C	file:	signature:(int type)
+readPacket	myfunc.c	/^static int readPacket(int type);	\/* 读取数据 *\/$/;"	p	language:C	file:	signature:(int type)
+renewIP	mystate.c	/^static int renewIP()$/;"	f	language:C	file:
+renewIP	mystate.c	/^static int renewIP();	\/* 更新IP *\/$/;"	p	language:C	file:
+restart	mystate.c	/^int restart()$/;"	f	language:C
+restart	mystate.h	/^int restart();	\/* 重启认证 *\/$/;"	p	language:C++	signature:()
+restartWait	myconfig.c	/^unsigned restartWait = D_RESTARTWAIT;	\/* 失败等待 *\/$/;"	v	language:C
+rip	myfunc.c	/^u_int32_t rip = 0;	\/* 实际IP *\/$/;"	v	language:C
+saveConfig	myconfig.c	/^static void saveConfig(int daemonMode)$/;"	f	language:C	file:	signature:(int daemonMode)
+saveConfig	myconfig.c	/^static void saveConfig(int daemonMode);	\/* 保存参数 *\/$/;"	p	language:C	file:	signature:(int daemonMode)
+saveFile	myini.c	/^int saveFile(const char *buf, const char *fileName)$/;"	f	language:C	signature:(const char *buf, const char *fileName)
+saveFile	myini.h	/^int saveFile(const char *buf, const char *fileName);	\/* 写入文件 *\/$/;"	p	language:C++	signature:(const char *buf, const char *fileName)
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m	language:Make
+section_header	mycheck.h	/^	IMAGE_SECTION_HEADER section_header[8];$/;"	m	language:C++	struct:_PE_HEADER_MAP	access:public
+sendArpPacket	mystate.c	/^static void sendArpPacket()$/;"	f	language:C	file:
+sendArpPacket	mystate.c	/^static void sendArpPacket();	\/* ARP监视 *\/$/;"	p	language:C	file:
+sendChallengePacket	mystate.c	/^static int sendChallengePacket()$/;"	f	language:C	file:
+sendChallengePacket	mystate.c	/^static int sendChallengePacket();   \/* 发送Md5 Challenge包 *\/$/;"	p	language:C	file:
+sendCount	mystate.c	/^static int sendCount = 0;	\/* 同一阶段发包计数 *\/$/;"	v	language:C	file:
+sendEchoPacket	mystate.c	/^static int sendEchoPacket()$/;"	f	language:C	file:
+sendEchoPacket	mystate.c	/^static int sendEchoPacket();	\/* 发送心跳包 *\/$/;"	p	language:C	file:
+sendIdentityPacket	mystate.c	/^static int sendIdentityPacket()$/;"	f	language:C	file:
+sendIdentityPacket	mystate.c	/^static int sendIdentityPacket();	\/* 发送Identity包 *\/$/;"	p	language:C	file:
+sendLogoffPacket	mystate.c	/^static int sendLogoffPacket()$/;"	f	language:C	file:
+sendLogoffPacket	mystate.c	/^static int sendLogoffPacket();  \/* 发送退出包 *\/$/;"	p	language:C	file:
+sendPacket	mystate.c	/^static u_char sendPacket[0x3E8];	\/* 用来发送的包 *\/$/;"	v	language:C	file:
+sendStartPacket	mystate.c	/^static int sendStartPacket()$/;"	f	language:C	file:
+sendStartPacket	mystate.c	/^static int sendStartPacket();	 \/* 发送Start包 *\/$/;"	p	language:C	file:
+setInt	myini.c	/^void setInt(char **buf, const char *section, const char *key, int value)$/;"	f	language:C	signature:(char **buf, const char *section, const char *key, int value)
+setInt	myini.h	/^void setInt(char **buf, const char *section, const char *key, int value);	\/* 设置整数 *\/$/;"	p	language:C++	signature:(char **buf, const char *section, const char *key, int value)
+setProperty	myfunc.c	/^static int setProperty(u_char type, const u_char *value, int length)$/;"	f	language:C	file:	signature:(u_char type, const u_char *value, int length)
+setProperty	myfunc.c	/^static int setProperty(u_char type, const u_char *value, int length);	\/* 设置指定属性 *\/$/;"	p	language:C	file:	signature:(u_char type, const u_char *value, int length)
+setString	myini.c	/^void setString(char **buf, const char *section, const char *key, const char *value)$/;"	f	language:C	signature:(char **buf, const char *section, const char *key, const char *value)
+setString	myini.h	/^void setString(char **buf, const char *section, const char *key, const char *value);	\/* 设置字符串，value=NULL则删除key，key=NULL则删除section *\/$/;"	p	language:C++	signature:(char **buf, const char *section, const char *key, const char *value)
+setTimer	mystate.c	/^static void setTimer(unsigned interval) \/* 设置定时器 *\/$/;"	f	language:C	file:	signature:(unsigned interval)
+setTimer	mystate.c	/^static void setTimer(unsigned interval);	\/* 设置定时器 *\/$/;"	p	language:C	file:	signature:(unsigned interval)
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m	language:Make
+showCernetMsg	mentohust.c	/^static void showCernetMsg(const u_char *buf)$/;"	f	language:C	file:	signature:(const u_char *buf)
+showCernetMsg	mentohust.c	/^static void showCernetMsg(const u_char *buf);	\/* 显示赛尔服务器提示信息 *\/$/;"	p	language:C	file:	signature:(const u_char *buf)
+showHelp	myconfig.c	/^static void showHelp(const char *fileName)$/;"	f	language:C	file:	signature:(const char *fileName)
+showHelp	myconfig.c	/^static void showHelp(const char *fileName);	\/* 显示帮助信息 *\/$/;"	p	language:C	file:	signature:(const char *fileName)
+showNotify	myconfig.c	/^int showNotify = D_SHOWNOTIFY;	\/* 显示通知 *\/$/;"	v	language:C
+showRuijieMsg	mentohust.c	/^static void showRuijieMsg(const u_char *buf, unsigned bufLen)$/;"	f	language:C	file:	signature:(const u_char *buf, unsigned bufLen)
+showRuijieMsg	mentohust.c	/^static void showRuijieMsg(const u_char *buf, unsigned bufLen);	\/* 显示锐捷服务器提示信息 *\/$/;"	p	language:C	file:	signature:(const u_char *buf, unsigned bufLen)
+show_notify	dlfunc.c	/^int show_notify(const char *summary, char *body, int timeout) {$/;"	f	language:C	signature:(const char *summary, char *body, int timeout)
+show_notify	dlfunc.h	/^int show_notify(const char *summary, char *body, int timeout);	\/* 显示通知:概要、正文、超时 *\/$/;"	p	language:C++	signature:(const char *summary, char *body, int timeout)
+sig_handle	mentohust.c	/^static void sig_handle(int sig)$/;"	f	language:C	file:	signature:(int sig)
+sig_handle	mentohust.c	/^static void sig_handle(int sig);	\/* 信号回调 *\/$/;"	p	language:C	file:	signature:(int sig)
+signature	mycheck.h	/^	DWORD signature;$/;"	m	language:C++	struct:_PE_HEADER_MAP	access:public
+size_8021x	mycheck.c	/^static DWORD size_8021x;$/;"	v	language:C	file:
+srcdir	Makefile	/^srcdir = .$/;"	m	language:Make
+startMode	myconfig.c	/^unsigned startMode = D_STARTMODE;	\/* 组播模式 *\/$/;"	v	language:C
+state	md5.h	/^  UINT4 state[4];								   \/* state (ABCD) *\/$/;"	m	language:C++	struct:__anon7	access:public
+state	mystate.c	/^volatile int state = ID_DISCONNECT;	\/* 认证状态 *\/$/;"	v	language:C
+strnicmp	myini.c	17;"	d	language:C	file:
+subdir	Makefile	/^subdir = src$/;"	m	language:Make
+switchState	mystate.c	/^int switchState(int type)$/;"	f	language:C	signature:(int type)
+switchState	mystate.h	/^int switchState(int type);	\/* 改变状态 *\/$/;"	p	language:C++	signature:(int type)
+sysconfdir	Makefile	/^sysconfdir = \/etc$/;"	m	language:Make
+szKey	mycheck.h	/^	WORD	szKey[16];$/;"	m	language:C++	struct:_VS_VERSIONINFO	access:public
+tagVS_FIXEDFILEINFO	mycheck.h	/^typedef struct tagVS_FIXEDFILEINFO {$/;"	s	language:C++
+tagVS_FIXEDFILEINFO::dwFileDateLS	mycheck.h	/^	DWORD	dwFileDateLS;			\/* e.g. 0 *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+tagVS_FIXEDFILEINFO::dwFileDateMS	mycheck.h	/^	DWORD	dwFileDateMS;			\/* e.g. 0 *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+tagVS_FIXEDFILEINFO::dwFileFlags	mycheck.h	/^	DWORD	dwFileFlags;			\/* e.g. VFF_DEBUG | VFF_PRERELEASE *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+tagVS_FIXEDFILEINFO::dwFileFlagsMask	mycheck.h	/^	DWORD	dwFileFlagsMask;		\/* = 0x3F for version "0.42" *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+tagVS_FIXEDFILEINFO::dwFileOS	mycheck.h	/^	DWORD	dwFileOS;				\/* e.g. VOS_DOS_WINDOWS16 *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+tagVS_FIXEDFILEINFO::dwFileSubtype	mycheck.h	/^	DWORD	dwFileSubtype;			\/* e.g. VFT2_DRV_KEYBOARD *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+tagVS_FIXEDFILEINFO::dwFileType	mycheck.h	/^	DWORD	dwFileType;				\/* e.g. VFT_DRIVER *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+tagVS_FIXEDFILEINFO::dwFileVersionLS	mycheck.h	/^	DWORD	dwFileVersionLS;		\/* e.g. 0x00000031 = "0.31" *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+tagVS_FIXEDFILEINFO::dwFileVersionMS	mycheck.h	/^	DWORD	dwFileVersionMS;		\/* e.g. 0x00030075 = "3.75" *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+tagVS_FIXEDFILEINFO::dwProductVersionLS	mycheck.h	/^	DWORD	dwProductVersionLS;		\/* e.g. 0x00000031 = "0.31" *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+tagVS_FIXEDFILEINFO::dwProductVersionMS	mycheck.h	/^	DWORD	dwProductVersionMS;		\/* e.g. 0x00030010 = "3.10" *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+tagVS_FIXEDFILEINFO::dwSignature	mycheck.h	/^	DWORD	dwSignature;			\/* e.g. 0xfeef04bd *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+tagVS_FIXEDFILEINFO::dwStrucVersion	mycheck.h	/^	DWORD	dwStrucVersion;			\/* e.g. 0x00000042 = "0.42" *\/$/;"	m	language:C++	struct:tagVS_FIXEDFILEINFO	access:public
+target_alias	Makefile	/^target_alias = $/;"	m	language:Make
+timeout	myconfig.c	/^unsigned timeout = D_TIMEOUT;	\/* 超时间隔 *\/$/;"	v	language:C
+top_build_prefix	Makefile	/^top_build_prefix = ..\/$/;"	m	language:Make
+top_builddir	Makefile	/^top_builddir = ..$/;"	m	language:Make
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m	language:Make
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m	language:Make
+ts	dlfunc.h	/^	struct timeval ts;$/;"	m	language:C++	struct:pcap_pkthdr	typeref:struct:pcap_pkthdr::timeval	access:public
+userName	myconfig.c	/^char userName[ACCOUNT_SIZE] = "";	\/* 用户名 *\/$/;"	v	language:C
+version	myfunc.c	/^u_char version[2];	\/* 版本 *\/$/;"	v	language:C
+wLength	mycheck.h	/^	WORD	wLength;$/;"	m	language:C++	struct:_VS_VERSIONINFO	access:public
+wType	mycheck.h	/^	WORD	wType;$/;"	m	language:C++	struct:_VS_VERSIONINFO	access:public
+wValueLength	mycheck.h	/^	WORD	wValueLength;$/;"	m	language:C++	struct:_VS_VERSIONINFO	access:public
+waitEchoPacket	mystate.c	/^static int waitEchoPacket()$/;"	f	language:C	file:
+waitEchoPacket	mystate.c	/^static int waitEchoPacket();	\/* 等候响应包 *\/$/;"	p	language:C	file:
+xorRuijie	myconfig.c	/^static const char xorRuijie[] = {"~!:?$*<(qw2e5o7i8x12c6m67s98w43d2l45we82q3iuu1z4xle23rt4oxclle34e54u6r8m"};$/;"	v	language:C	file:
