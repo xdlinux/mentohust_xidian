@@ -1,4 +1,4 @@
-cscope 15 $HOME/workspace/mentohust/src -q 0000000726 0000077553
+cscope 15 $HOME/workspace/mentohust/src -q 0000000726 0000077572
 	@dlfunc.c
 
 11 
@@ -3463,23 +3463,27 @@ SIGTERM
 sig_hªdË
 );
 
-60 ià(
+60 
+dhýMode
+ = 6;
+
+61 ià(
 dhýMode
  == 3)
 
-61 
+62 
 	`sw™chS‹
 (
 ID_DHCP
 );
 
-63 
+64 
 	`sw™chS‹
 (
 ID_START
 );
 
-64 ià(-1 =ð
+65 ià(-1 =ð
 	`pÿp_loÝ
 (
 hPÿp
@@ -3489,17 +3493,17 @@ pÿp_hªdË
 NULL
 )) {
 
-65 
+66 
 	`´štf
 (
 	`_
 ("!! æ•èŽ·æ•°æ®åŒ…å¤±è´¥ï¼Œè¯·æ£€æŸ¥ç½‘ç»œè¿žæŽ¥ï¼\n"));
 
-66 #iâdeà
+67 #iâdeà
 NO_NOTIFY
 
 
-67 ià(
+68 ià(
 showNÙify
  && 
 	`show_nÙify
@@ -3507,137 +3511,137 @@ showNÙify
 	`_
 ("MentoHUST - é”™è¯¯æç¤º"),
 
-68 
+69 
 	`_
 ("æ•èŽ·æ•°æ®åŒ…å¤±è´¥ï¼Œè¯·æ£€æŸ¥ç½‘ç»œè¿žæŽ¥ï¼"), 1000*
 showNÙify
 ) < 0)
 
-69 
+70 
 showNÙify
  = 0;
 
-72 
+73 
 	`ex™
 (
 EXIT_FAILURE
 );
 
-73 
+74 
 	}
 }
 
-75 
+76 
 	$ex™_hªdË
 ()
 
-77 ià(
+78 ià(
 ¡©e
  !ð
 ID_DISCONNECT
 )
 
-78 
+79 
 	`sw™chS‹
 (
 ID_DISCONNECT
 );
 
-79 ià(
+80 ià(
 hPÿp
  !ð
 NULL
 )
 
-80 
+81 
 	`pÿp_þo£
 (
 hPÿp
 );
 
-81 ià(
+82 ià(
 fžlBuf
  !ð
 NULL
 )
 
-82 
+83 
 	`ä“
 (
 fžlBuf
 );
 
-83 ià(
+84 ià(
 lockfd
  > -1)
 
-84 
+85 
 	`þo£
 (
 lockfd
 );
 
-85 #iâdeà
+86 #iâdeà
 NO_NOTIFY
 
 
-86 
+87 
 	`ä“_libnÙify
 ();
 
-88 #iâdeà
+89 #iâdeà
 NO_DYLOAD
 
 
-89 
+90 
 	`ä“_libpÿp
 ();
 
-91 
+92 
 	`´štf
 (
 	`_
 (">> è®¤è¯å·²é€€å‡ºã€‚\n"));
 
-92 
+93 
 	}
 }
 
-94 
+95 
 	$sig_hªdË
 (
 sig
 )
 
-96 ià(
+97 ià(
 sig
  =ð
 SIGALRM
 )
 
-98 ià(-1 =ð
+99 ià(-1 =ð
 	`sw™chS‹
 (
 ¡©e
 ))
 
-100 
+101 
 	`pÿp_b»akloÝ
 (
 hPÿp
 );
 
-101 
+102 
 	`´štf
 (
 	`_
 ("!! å‘é€æ•°æ®åŒ…å¤±è´¥, è¯·æ£€æŸ¥ç½‘ç»œè¿žæŽ¥ï¼\n"));
 
-102 #iâdeà
+103 #iâdeà
 NO_NOTIFY
 
 
-103 ià(
+104 ià(
 showNÙify
  && 
 	`show_nÙify
@@ -3645,39 +3649,39 @@ showNÙify
 	`_
 ("MentoHUST - é”™è¯¯æç¤º"),
 
-104 
+105 
 	`_
 ("å‘é€æ•°æ®åŒ…å¤±è´¥, è¯·æ£€æŸ¥ç½‘ç»œè¿žæŽ¥ï¼"), 1000*
 showNÙify
 ) < 0)
 
-105 
+106 
 showNÙify
  = 0;
 
-107 
+108 
 	`ex™
 (
 EXIT_FAILURE
 );
 
-112 
+113 
 	`pÿp_b»akloÝ
 (
 hPÿp
 );
 
-113 
+114 
 	`ex™
 (
 EXIT_SUCCESS
 );
 
-115 
+116 
 	}
 }
 
-117 
+118 
 	$pÿp_hªdË
 (
 u_ch¬
@@ -3691,19 +3695,19 @@ h
 buf
 )
 
-119 
+120 
 çžCouÁ
  = 0;
 
-120 #iâdeà
+121 #iâdeà
 NO_ARP
 
 
-121 ià(
+122 ià(
 buf
 [0x0c]==0x88 && buf[0x0d]==0x8e) {
 
-123 ià(
+124 ià(
 	`memcmp
 (
 de¡MAC
@@ -3713,21 +3717,21 @@ buf
 ¡¬tMode
 >2)
 
-125 
+126 
 ÿpBuf
  = 
 buf
 ;
 
-126 ià(
+127 ià(
 buf
 [0x0F]==0x00 && buf[0x12]==0x01 && buf[0x16]==0x01) {
 
-127 ià(
+128 ià(
 ¡¬tMode
  < 3) {
 
-128 
+129 
 	`memýy
 (
 de¡MAC
@@ -3735,7 +3739,7 @@ de¡MAC
 buf
 +6, 6);
 
-129 
+130 
 	`´štf
 (
 	`_
@@ -3745,11 +3749,11 @@ buf
 de¡MAC
 , 6));
 
-130 
+131 
 ¡¬tMode
  += 3;
 
-132 ià(
+133 ià(
 ¡¬tMode
 ==3 && 
 	`memcmp
@@ -3757,51 +3761,51 @@ de¡MAC
 buf
 +0x17, "User‚ame", 9)==0)
 
-133 
+134 
 ¡¬tMode
  = 5;
 
-134 
+135 
 	`sw™chS‹
 (
 ID_IDENTITY
 );
 
-136 ià(
+137 ià(
 buf
 [0x0F]==0x00 && buf[0x12]==0x01 && buf[0x16]==0x04)
 
-137 
+138 
 	`sw™chS‹
 (
 ID_CHALLENGE
 );
 
-138 ià(
+139 ià(
 buf
 [0x0F]==0x00 && buf[0x12]==0x03) {
 
-139 
+140 
 	`´štf
 (
 	`_
 (">> è®¤è¯æˆåŠŸ!\n"));
 
-140 
+141 
 çžCouÁ
  = 0;
 
-141 ià(!(
+142 ià(!(
 ¡¬tMode
 %3 == 2)) {
 
-142 
+143 
 	`g‘EchoKey
 (
 buf
 );
 
-143 
+144 
 	`showRuij›Msg
 (
 buf
@@ -3811,57 +3815,57 @@ h
 ÿ¶’
 );
 
-145 ià(
+146 ià(
 dhýMode
 ==1 || dhcpMode==2)
 
-146 
+147 
 	`sw™chS‹
 (
 ID_DHCP
 );
 
-147 ià(
+148 ià(
 ¡¬tMode
 %3 == 2)
 
-148 
+149 
 	`sw™chS‹
 (
 ID_WAITECHO
 );
 
-150 
+151 
 	`sw™chS‹
 (
 ID_ECHO
 );
 
-152 ià(
+153 ià(
 buf
 [0x0F]==0x00 && buf[0x12]==0x01 && buf[0x16]==0x02)
 
-153 
+154 
 	`showC”ÃtMsg
 (
 buf
 );
 
-154 ià(
+155 ià(
 buf
 [0x0F] == 0x05)
 
-155 
+156 
 	`sw™chS‹
 (
 ID_ECHO
 );
 
-156 ià(
+157 ià(
 buf
 [0x0F]==0x00 && buf[0x12]==0x04) {
 
-157 ià(
+158 ià(
 ¡©e
 ==
 ID_WAITECHO
@@ -3869,35 +3873,35 @@ ID_WAITECHO
 ID_ECHO
 ) {
 
-158 
+159 
 	`´štf
 (
 	`_
 (">> è®¤è¯æŽ‰çº¿ï¼Œå¼€å§‹é‡è¿ž!\n"));
 
-159 
+160 
 	`sw™chS‹
 (
 ID_START
 );
 
-161 ià(
+162 ià(
 buf
 [0x1b]!=0 || 
 ¡¬tMode
 %3==2) {
 
-162 
+163 
 	`´štf
 (
 	`_
 (">> è®¤è¯å¤±è´¥!\n"));
 
-163 ià(
+164 ià(
 ¡¬tMode
 %3 != 2)
 
-164 
+165 
 	`showRuij›Msg
 (
 buf
@@ -3907,13 +3911,13 @@ h
 ÿ¶’
 );
 
-165 ià(
+166 ià(
 maxFaž
  && ++
 çžCouÁ
 >=maxFail) {
 
-166 
+167 
 	`´štf
 (
 	`_
@@ -3921,33 +3925,33 @@ maxFaž
 maxFaž
 );
 
-167 
+168 
 	`ex™
 (
 EXIT_SUCCESS
 );
 
-169 
+170 
 	`»¡¬t
 ();
 
-172 
+173 
 	`sw™chS‹
 (
 ID_START
 );
 
-174 #iâdeà
+175 #iâdeà
 NO_ARP
 
 
-175 } ià(
+176 } ià(
 g©eMAC
 [0]!=0xFE && 
 buf
 [0x0c]==0x08 && buf[0x0d]==0x06) {
 
-176 ià(*(
+177 ià(*(
 u_št32_t
  *)(
 buf
@@ -3955,15 +3959,15 @@ buf
 g©eway
 ) {
 
-177 
+178 
 ¡r
 [50];
 
-178 ià(
+179 ià(
 g©eMAC
 [0] == 0xFF) {
 
-179 
+180 
 	`memýy
 (
 g©eMAC
@@ -3971,7 +3975,7 @@ g©eMAC
 buf
 +0x16, 6);
 
-180 
+181 
 	`´štf
 (
 	`_
@@ -3981,7 +3985,7 @@ buf
 g©eMAC
 , 6));
 
-181 
+182 
 	`¥rštf
 (
 ¡r
@@ -3995,13 +3999,13 @@ g©eway
 g©eMAC
 , 6));
 
-182 
+183 
 	`sy¡em
 (
 ¡r
 );
 
-183 } ià(
+184 } ià(
 buf
 [0x15]==0x02 && 
 	`memcmp
@@ -4009,7 +4013,7 @@ buf
 r
 , buf+0x26, 4)==0
 
-184 && 
+185 && 
 	`memcmp
 (
 g©eMAC
@@ -4017,7 +4021,7 @@ g©eMAC
 buf
 +0x16, 6)!=0) {
 
-185 
+186 
 	`´štf
 (
 	`_
@@ -4027,15 +4031,15 @@ buf
 buf
 +0x16, 6));
 
-186 #iâdeà
+187 #iâdeà
 NO_NOTIFY
 
 
-187 ià(
+188 ià(
 showNÙify
 ) {
 
-188 
+189 
 	`¥rštf
 (
 ¡r
@@ -4047,7 +4051,7 @@ showNÙify
 buf
 +0x16, 6));
 
-189 ià(
+190 ià(
 	`show_nÙify
 (
 	`_
@@ -4057,15 +4061,15 @@ buf
 showNÙify
 ) < 0)
 
-190 
+191 
 showNÙify
  = 0;
 
-197 
+198 
 	}
 }
 
-199 
+200 
 	$showRuij›Msg
 (cÚ¡ 
 u_ch¬
@@ -4075,21 +4079,21 @@ buf
 bufL’
 )
 
-201 *
+202 *
 £rv”Msg
 ;
 
-202 
+203 
 Ëngth
  = 
 buf
 [0x1b];
 
-203 ià(
+204 ià(
 Ëngth
  > 0) {
 
-204 
+205 
 £rv”Msg
 =(*)(
 buf
@@ -4097,7 +4101,7 @@ buf
 Ëngth
 --);
 
-205 ià(
+206 ià(
 	`¡¾’
 (
 £rv”Msg
@@ -4105,7 +4109,7 @@ buf
 Ëngth
 )
 
-206 
+207 
 Ëngth
  = 
 	`¡¾’
@@ -4113,7 +4117,7 @@ buf
 £rv”Msg
 );
 
-207 ià(
+208 ià(
 Ëngth
 >0 && (
 £rv”Msg
@@ -4123,13 +4127,13 @@ buf
 NULL
 ) {
 
-208 ià(
+209 ià(
 	`¡¾’
 (
 £rv”Msg
 )) {
 
-209 
+210 
 	`´štf
 (
 	`_
@@ -4137,11 +4141,11 @@ NULL
 £rv”Msg
 );
 
-210 #iâdeà
+211 #iâdeà
 NO_NOTIFY
 
 
-211 ià(
+212 ià(
 showNÙify
  && 
 	`show_nÙify
@@ -4149,23 +4153,23 @@ showNÙify
 	`_
 ("MentoHUST - ç³»ç»Ÿæç¤º"),
 
-212 
+213 
 £rv”Msg
 , 1000*
 showNÙify
 ) < 0)
 
-213 
+214 
 showNÙify
  = 0;
 
-216 
+217 
 	`ä“
 (
 £rv”Msg
 );
 
-219 ià((
+220 ià((
 Ëngth
 =0x1c+
 buf
@@ -4173,7 +4177,7 @@ buf
 bufL’
 ) {
 
-220 
+221 
 £rv”Msg
 =(*)(
 buf
@@ -4181,7 +4185,7 @@ buf
 Ëngth
 );
 
-221 ià(
+222 ià(
 buf
 [
 Ëngth
@@ -4189,25 +4193,25 @@ buf
 bufL’
 -length)
 
-222 
+223 
 Ëngth
  = 
 bufL’
  -†ength;
 
-224 
+225 
 Ëngth
  = 
 buf
 [length-1]-2;
 
-225 ; *
+226 ; *
 £rv”Msg
 =='\r'||*£rv”Msg=='\n'; s”v”Msg++,
 Ëngth
 --);
 
-226 ià(
+227 ià(
 Ëngth
 >0 && (
 £rv”Msg
@@ -4217,13 +4221,13 @@ buf
 NULL
 ) {
 
-227 ià(
+228 ià(
 	`¡¾’
 (
 £rv”Msg
 )) {
 
-228 
+229 
 	`´štf
 (
 	`_
@@ -4231,11 +4235,11 @@ NULL
 £rv”Msg
 );
 
-229 #iâdeà
+230 #iâdeà
 NO_NOTIFY
 
 
-230 ià(
+231 ià(
 showNÙify
  && 
 	`show_nÙify
@@ -4243,27 +4247,27 @@ showNÙify
 	`_
 ("MentoHUST - è®¡è´¹æç¤º"),
 
-231 
+232 
 £rv”Msg
 , 1000*
 showNÙify
 ) < 0)
 
-232 
+233 
 showNÙify
  = 0;
 
-235 
+236 
 	`ä“
 (
 £rv”Msg
 );
 
-238 
+239 
 	}
 }
 
-240 
+241 
 	$showC”ÃtMsg
 (cÚ¡ 
 u_ch¬
@@ -4271,13 +4275,13 @@ u_ch¬
 buf
 )
 
-242 *
+243 *
 £rv”Msg
  = (*)(
 buf
 +0x17);
 
-243 
+244 
 Ëngth
  = 
 	`Áohs
@@ -4287,7 +4291,7 @@ u_št16_t
 buf
 +0x14)) - 5;
 
-244 ià(
+245 ià(
 	`¡¾’
 (
 £rv”Msg
@@ -4295,7 +4299,7 @@ buf
 Ëngth
 )
 
-245 
+246 
 Ëngth
  = 
 	`¡¾’
@@ -4303,7 +4307,7 @@ buf
 £rv”Msg
 );
 
-246 ià(
+247 ià(
 Ëngth
 >0 && (
 £rv”Msg
@@ -4313,7 +4317,7 @@ buf
 NULL
 )
 
-248 
+249 
 	`´štf
 (
 	`_
@@ -4321,11 +4325,11 @@ NULL
 £rv”Msg
 );
 
-249 #iâdeà
+250 #iâdeà
 NO_NOTIFY
 
 
-250 ià(
+251 ià(
 showNÙify
  && 
 	`show_nÙify
@@ -4333,23 +4337,23 @@ showNÙify
 	`_
 ("MentoHUST - ç³»ç»Ÿæç¤º"),
 
-251 
+252 
 £rv”Msg
 , 1000*
 showNÙify
 ) < 0)
 
-252 
+253 
 showNÙify
  = 0;
 
-254 
+255 
 	`ä“
 (
 £rv”Msg
 );
 
-256 
+257 
 	}
 }
 
