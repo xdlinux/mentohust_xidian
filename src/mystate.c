@@ -185,7 +185,7 @@ static void fillEtherAddr(u_int32_t protocol)
 static int sendStartPacket()
 {
 
-    if ((dhcpMode%3!=1) && ip==0)
+    if ((dhcpMode!=1) && ip==0)
     {
         printf(_("IP地址错误，请重试！"));
         exit(EXIT_FAILURE);
