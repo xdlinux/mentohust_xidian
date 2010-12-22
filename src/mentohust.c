@@ -57,6 +57,8 @@ int main(int argc, char **argv)
 	signal(SIGQUIT, sig_handle);	/* Ctrl+\ */
 	signal(SIGTSTP, sig_handle);	/* Ctrl+Z */
 	signal(SIGTERM, sig_handle);	/* 被结束时 */
+    if (dhcpMode == 2)
+        dhcpMode=1;
     if (dhcpMode == 3)	  /* 认证前DHCP */
 		switchState(ID_DHCP);
 	else
