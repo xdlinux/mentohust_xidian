@@ -144,7 +144,7 @@ static int renewIP()
     switch(pid)
     {
     case 0:
-        execlp(dhcpScript,dhcpScript,nic,"-v",NULL);
+        execlp(dhcpScript,dhcpScript,nic,NULL);
         break;
     }
     if(pid!=0)
