@@ -11,7 +11,9 @@ sudo cp ./SuConfig.dat /etc/mentohust
 
 some tips
 
-[*] 请尽量使用认证前获取IP地址
+[*] 请尽量使用认证前获取IP地址(大部分发行版会自动获取IP地址)
+    若认证过程出现“非法IP”错误，请自行获取IP地址
+    dhclient eth0
 [*] 对于部分宿舍楼必须使用认证后获取IP，请在认证前先用静态IP拟定
     ifconfig eth0 你的IP地址
     sudo mentohust
